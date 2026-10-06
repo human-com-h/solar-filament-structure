@@ -1,0 +1,1220 @@
+{
+  "manuscript_version": "paper-v5",
+  "status": "COMPLETED_LOCAL_PREPARATION_WITH_EXPLICIT_RUNTIME_LIMITS",
+  "replay21": {
+    "status": "PASS_NINE_NON_BOOTSTRAP_TABLES_NUMERIC_AND_NA_PARITY",
+    "kind": "engineering replay of accepted receipts; not independent scientific validation",
+    "python": "3.12.9",
+    "standard_library_only": true,
+    "verified_package_files": 15163,
+    "verified_receipts": 4212,
+    "frozen_aggregation_source_sha256": "89a9c1d287cda9c5862a3ffdbb9364750af8a8399fc492e3e2e943ab968e94bc",
+    "max_absolute_numeric_difference": 3.552713678800501e-15,
+    "tolerance": 5e-14,
+    "bootstrap": {
+      "recomputed": false,
+      "verified_original_sha256": "c9b46bb9300a085fe57a3b0bbf01fcb6e182fcb14a3b6e65b565ca7f660d5965",
+      "reason": "Retain original NumPy RNG and frozen 100000-draw algorithm in the separate full-environment route"
+    },
+    "elapsed_seconds": 32.23892680000063,
+    "tables": [
+      {
+        "file": "comparison_sensitivity.csv",
+        "rows": 828,
+        "fields": 22,
+        "max_absolute_numeric_difference": 5.551115123125783e-17,
+        "differing_numeric_strings": 1308,
+        "frozen_sha256": "f7d47eddc1f7c6d200cd3aaf926e022df7607d863ae06b38f11c3944e6505fe1",
+        "replay_sha256": "9ac49b8641bcd72aa28f299b935c6ffec887dd3367651fb7cea44822578721d1",
+        "byte_equal": false
+      },
+      {
+        "file": "comparison_three_seed_summary.csv",
+        "rows": 12,
+        "fields": 12,
+        "max_absolute_numeric_difference": 1.3877787807814457e-17,
+        "differing_numeric_strings": 36,
+        "frozen_sha256": "89e4f4595af496153d5df9061b470645c9695acb2e7099f0576c65e01d1fb577",
+        "replay_sha256": "3755bd8ce43a0065aa45d23f8737dd68ad523c5b025c9c5449eb0c6945c38886",
+        "byte_equal": false
+      },
+      {
+        "file": "leave_one_group_out.csv",
+        "rows": 546,
+        "fields": 11,
+        "max_absolute_numeric_difference": 2.7755575615628914e-17,
+        "differing_numeric_strings": 214,
+        "frozen_sha256": "c02e8cb75500fceed691833d118570e4e25edb1acc17755b93864781069dfe74",
+        "replay_sha256": "0c9b13d2fd28ee41a9242103b718e89e6161ae3bec3bea3c47b574298b5d8b54",
+        "byte_equal": false
+      },
+      {
+        "file": "per_copy.csv",
+        "rows": 7140,
+        "fields": 21,
+        "max_absolute_numeric_difference": 0.0,
+        "differing_numeric_strings": 0,
+        "frozen_sha256": "26fac8b1a758a409559e2ccd1e2b011dd4827a3b676946ad417fc50d545707ad",
+        "replay_sha256": "26fac8b1a758a409559e2ccd1e2b011dd4827a3b676946ad417fc50d545707ad",
+        "byte_equal": true
+      },
+      {
+        "file": "per_observation.csv",
+        "rows": 4536,
+        "fields": 23,
+        "max_absolute_numeric_difference": 0.0,
+        "differing_numeric_strings": 0,
+        "frozen_sha256": "5b5e86253915120cab5c53179375a1748c110fb0b7efd050a5f880a3c6be6e11",
+        "replay_sha256": "5b5e86253915120cab5c53179375a1748c110fb0b7efd050a5f880a3c6be6e11",
+        "byte_equal": true
+      },
+      {
+        "file": "per_reference.csv",
+        "rows": 57456,
+        "fields": 22,
+        "max_absolute_numeric_difference": 0.0,
+        "differing_numeric_strings": 0,
+        "frozen_sha256": "6a7136f5c0eb9b8e88f8d7116fc529030b18354817c8d77a4806257441b4ff02",
+        "replay_sha256": "6a7136f5c0eb9b8e88f8d7116fc529030b18354817c8d77a4806257441b4ff02",
+        "byte_equal": true
+      },
+      {
+        "file": "per_seed.csv",
+        "rows": 42,
+        "fields": 19,
+        "max_absolute_numeric_difference": 3.552713678800501e-15,
+        "differing_numeric_strings": 61,
+        "frozen_sha256": "823418a195d24a6585fa219a68a35f3de25c54b4f00dfaa4324832b5100e335d",
+        "replay_sha256": "cd45debc72111ffb7a07e9a6139fc45e2df649edf27b006ab7961881702fd48b",
+        "byte_equal": false
+      },
+      {
+        "file": "per_year.csv",
+        "rows": 420,
+        "fields": 11,
+        "max_absolute_numeric_difference": 5.551115123125783e-17,
+        "differing_numeric_strings": 48,
+        "frozen_sha256": "2d90af484924fc0c1ffba0c464b19637d01abdf6d284a84b73cccd4699e3f06f",
+        "replay_sha256": "19cbdb52b047b89d21ef18cc3ea8f6a67234b01dd58440db384f1e190a6bc5cc",
+        "byte_equal": false
+      },
+      {
+        "file": "three_seed_summary.csv",
+        "rows": 14,
+        "fields": 19,
+        "max_absolute_numeric_difference": 3.552713678800501e-15,
+        "differing_numeric_strings": 67,
+        "frozen_sha256": "d2dc0ae36356e268cd18d04b1fcd58d7eef5a755524943b494dd4486b9c5167c",
+        "replay_sha256": "e8bfcfd46897f15eef02736bd9adc4d344811f76257ec6d4be9179e9919b7ecf",
+        "byte_equal": false
+      }
+    ]
+  },
+  "replay24": {
+    "status": "PASS_PORTABLE_STANDARD_LIBRARY_DESCRIPTIVE_REPLAY",
+    "tables": [
+      {
+        "table": "all_eight_methods_segmentation_per_seed",
+        "rows": 144,
+        "maximum_numeric_difference": 5.551115123125783e-16,
+        "numeric_tolerance": 1e-12
+      },
+      {
+        "table": "all_eight_methods_application_per_seed",
+        "rows": 48,
+        "maximum_numeric_difference": 3.552713678800501e-15,
+        "numeric_tolerance": 1e-12
+      },
+      {
+        "table": "all_eight_methods_mean_sd",
+        "rows": 400,
+        "maximum_numeric_difference": 3.552713678800501e-15,
+        "numeric_tolerance": 1e-12
+      }
+    ],
+    "gpu_required": false,
+    "raw_images_required": false,
+    "bootstrap_or_mask_scoring_repeated": false,
+    "scope": "Reconstructs descriptive summaries from the supplied accepted observation scores. Numerical equality is checked at 1e-12, not byte equality; bootstrap draws and scoring retain their separate frozen implementations."
+  },
+  "statistics_s11_diagnostics_parity": {
+    "status": "PASS",
+    "tables": 66,
+    "maximum_absolute_difference": 0,
+    "results": [
+      {
+        "path": "statistics21_v2",
+        "table": "comparison_sensitivity.csv",
+        "rows": 828,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "comparison_three_seed_summary.csv",
+        "rows": 12,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "leave_one_group_out.csv",
+        "rows": 546,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "paired_bootstrap.csv",
+        "rows": 72,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "per_copy.csv",
+        "rows": 7140,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "per_observation.csv",
+        "rows": 4536,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "per_reference.csv",
+        "rows": 57456,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "per_seed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "per_year.csv",
+        "rows": 420,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics21_v2",
+        "table": "three_seed_summary.csv",
+        "rows": 14,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics24",
+        "table": "common_success_length_pairs.csv",
+        "rows": 3335,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics24",
+        "table": "common_success_length_per_seed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics24",
+        "table": "new_per_seed.csv",
+        "rows": 132,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics24",
+        "table": "paired_effects.csv",
+        "rows": 924,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics24",
+        "table": "paired_intervals.csv",
+        "rows": 1848,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics24",
+        "table": "paired_three_seed_summary.csv",
+        "rows": 308,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics24",
+        "table": "sensitivity.csv",
+        "rows": 21252,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "evaluation_denominators.csv",
+        "rows": 8,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "qc_exclusions_with_partition.csv",
+        "rows": 2,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_component.csv",
+        "rows": 24878,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_copy.csv",
+        "rows": 1154,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_instance.csv",
+        "rows": 8199,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_observation.csv",
+        "rows": 707,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "temporal_group_inventory.csv",
+        "rows": 13,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "temporal_sensitivity_all_endpoints.csv",
+        "rows": 25056,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "temporal_sensitivity_focus.csv",
+        "rows": 300,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "legacy_bootstrap_parity.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_paired_effects.csv",
+        "rows": 252,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_paired_intervals.csv",
+        "rows": 504,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_paired_multiseed.csv",
+        "rows": 84,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_per_observation_observed.csv",
+        "rows": 2916,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_sensitivity.csv",
+        "rows": 5796,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "region_multiseed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "region_per_observation.csv",
+        "rows": 13608,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "region_per_seed.csv",
+        "rows": 126,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "test_observations.csv",
+        "rows": 108,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_region_v2",
+        "table": "region_multiseed.csv",
+        "rows": 30,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_region_v2",
+        "table": "region_paired_intervals.csv",
+        "rows": 240,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_region_v2",
+        "table": "region_per_observation.csv",
+        "rows": 9720,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_region_v2",
+        "table": "region_per_seed.csv",
+        "rows": 90,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_region_v2",
+        "table": "region_sensitivity.csv",
+        "rows": 2760,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_components_v2",
+        "table": "branch_multiseed.csv",
+        "rows": 30,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_components_v2",
+        "table": "branch_paired_intervals.csv",
+        "rows": 48,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_components_v2",
+        "table": "branch_per_observation.csv",
+        "rows": 9090,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_components_v2",
+        "table": "branch_per_seed.csv",
+        "rows": 90,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism_components_v2",
+        "table": "branch_sensitivity.csv",
+        "rows": 456,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "annotation_copy_per_observation.csv",
+        "rows": 40,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "annotation_copy_per_pair.csv",
+        "rows": 84,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "annotation_copy_per_reference.csv",
+        "rows": 647,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "candidate_yield_per_observation.csv",
+        "rows": 4212,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "candidate_yield_per_seed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "candidate_yield_three_seed_summary.csv",
+        "rows": 14,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_per_observation.csv",
+        "rows": 1328,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_per_reference.csv",
+        "rows": 2467,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_per_seed.csv",
+        "rows": 36,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_three_seed_summary.csv",
+        "rows": 12,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "failure_category_counts.csv",
+        "rows": 70,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "prediction_failure_per_reference.csv",
+        "rows": 12312,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "prediction_input_manifest_hashes.csv",
+        "rows": 9,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "prediction_input_mask_hashes.csv",
+        "rows": 972,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_copy.csv",
+        "rows": 170,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_observation.csv",
+        "rows": 108,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_reference.csv",
+        "rows": 1368,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_temporal_group.csv",
+        "rows": 13,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_year.csv",
+        "rows": 10,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_native_mask_hashes.csv",
+        "rows": 170,
+        "maximum_absolute_difference": 0,
+        "numeric_strings_different": 0,
+        "status": "PASS",
+        "byte_equal": true
+      }
+    ]
+  },
+  "native_mask_rescoring": {
+    "status": "PASS",
+    "run": "BCE_Dice_seed20260831",
+    "scope": "full native-mask rescoring, not inference",
+    "segmentation_observation_rows": 324,
+    "segmentation_maximum_absolute_difference": 0,
+    "axes": [
+      {
+        "table": "per_reference.csv",
+        "rows": 1368,
+        "maximum_absolute_difference": 0
+      },
+      {
+        "table": "per_copy.csv",
+        "rows": 170,
+        "maximum_absolute_difference": 0
+      },
+      {
+        "table": "per_observation.csv",
+        "rows": 108,
+        "maximum_absolute_difference": 0
+      }
+    ]
+  },
+  "cpu_contracts": {
+    "status": "PASS_CPU_ENGINEERING",
+    "synthetic_only": true,
+    "checks": [
+      {
+        "name": "frozen_axis_self_test",
+        "result": {
+          "status": "PASS",
+          "kind": "synthetic engineering tests only; no scientific observations scored",
+          "checks": [
+            "perfect line",
+            "empty prediction counts failure",
+            "fragmented axis not joined",
+            "one-to-one duplicate reference",
+            "short axis signed length error",
+            "mask-only extraction interface"
+          ],
+          "versions": {
+            "python": "3.12.9",
+            "numpy": "2.4.6",
+            "scipy": "1.15.2",
+            "skimage": "0.25.0"
+          }
+        }
+      },
+      {
+        "name": "copy_then_observation_and_failed_lengths",
+        "macro": 0.5,
+        "pooled_reference_fraction": 0.25,
+        "status": "PASS"
+      },
+      {
+        "name": "five_pixel_filter_before_ownership_only",
+        "second_retained_pixels": 3,
+        "status": "PASS"
+      },
+      {
+        "name": "endpoint_path_residuals_and_rejection",
+        "components": 2,
+        "status": "PASS"
+      },
+      {
+        "name": "component_balancing_equivalence",
+        "difference": 3.971816764369862e-09,
+        "status": "PASS"
+      },
+      {
+        "name": "native_segmentation_threshold_curve_parity",
+        "grid_size": 39,
+        "status": "PASS"
+      },
+      {
+        "name": "bidirectional_matching_and_loop_ties",
+        "status": "PASS"
+      },
+      {
+        "name": "component_recall_original_loop_parity",
+        "radii": [
+          0,
+          1,
+          2
+        ],
+        "boundary_pixels_included": true,
+        "status": "PASS"
+      }
+    ],
+    "frozen_files_checked": 76,
+    "environment": {
+      "python": "3.12.9",
+      "numpy": "2.4.6",
+      "scipy": "1.15.2",
+      "skimage": "0.25.0",
+      "opencv": "4.11.0"
+    },
+    "model_checks_executed": false,
+    "ddp_gpu_training_verified": false,
+    "new_paper_observations_scored": false
+  },
+  "eight_model_checks": {
+    "status": "PASS_CPU_ENGINEERING",
+    "synthetic_only": true,
+    "checks": [
+      {
+        "name": "frozen_axis_self_test",
+        "result": {
+          "status": "PASS",
+          "kind": "synthetic engineering tests only; no scientific observations scored",
+          "checks": [
+            "perfect line",
+            "empty prediction counts failure",
+            "fragmented axis not joined",
+            "one-to-one duplicate reference",
+            "short axis signed length error",
+            "mask-only extraction interface"
+          ],
+          "versions": {
+            "python": "3.12.9",
+            "numpy": "2.4.6",
+            "scipy": "1.15.2",
+            "skimage": "0.25.0"
+          }
+        }
+      },
+      {
+        "name": "copy_then_observation_and_failed_lengths",
+        "macro": 0.5,
+        "pooled_reference_fraction": 0.25,
+        "status": "PASS"
+      },
+      {
+        "name": "five_pixel_filter_before_ownership_only",
+        "second_retained_pixels": 3,
+        "status": "PASS"
+      },
+      {
+        "name": "endpoint_path_residuals_and_rejection",
+        "components": 2,
+        "status": "PASS"
+      },
+      {
+        "name": "component_balancing_equivalence",
+        "difference": 3.971816764369862e-09,
+        "status": "PASS"
+      },
+      {
+        "name": "native_segmentation_threshold_curve_parity",
+        "grid_size": 39,
+        "status": "PASS"
+      },
+      {
+        "name": "bidirectional_matching_and_loop_ties",
+        "status": "PASS"
+      },
+      {
+        "name": "eight_model_forward_loss_gradient",
+        "status": "PASS",
+        "methods": [
+          {
+            "method": "BCE_Dice",
+            "parameters": 7762465,
+            "loss": 0.7093918323516846,
+            "finite_gradients": true
+          },
+          {
+            "method": "SRL",
+            "parameters": 7762465,
+            "loss": 0.7666200995445251,
+            "finite_gradients": true
+          },
+          {
+            "method": "SABR",
+            "parameters": 7762465,
+            "loss": 0.7726548314094543,
+            "finite_gradients": true
+          },
+          {
+            "method": "ResidualPixel",
+            "parameters": 7762465,
+            "loss": 0.7876666784286499,
+            "finite_gradients": true
+          },
+          {
+            "method": "SRL_FG",
+            "parameters": 7762465,
+            "loss": 0.7890588641166687,
+            "finite_gradients": true
+          },
+          {
+            "method": "FlatUNet_BCE",
+            "parameters": 258081,
+            "loss": 0.6836858987808228,
+            "finite_gradients": true
+          },
+          {
+            "method": "UNet_softDice_clDice",
+            "parameters": 7762465,
+            "loss": 0.4535566568374634,
+            "finite_gradients": true
+          },
+          {
+            "method": "UNet_region_clDice",
+            "parameters": 7762465,
+            "loss": 0.763949453830719,
+            "finite_gradients": true
+          }
+        ],
+        "shape": [
+          2,
+          1,
+          64,
+          64
+        ],
+        "gpu_training_performed": false
+      }
+    ],
+    "frozen_files_checked": 73,
+    "environment": {
+      "python": "3.12.9",
+      "numpy": "2.4.6",
+      "scipy": "1.15.2",
+      "skimage": "0.25.0",
+      "opencv": "4.11.0"
+    },
+    "model_checks_executed": true,
+    "ddp_gpu_training_verified": false,
+    "new_paper_observations_scored": false
+  },
+  "all24_export_loading": {
+    "status": "PASS",
+    "models": [
+      {
+        "run": "BCE_Dice_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SRL_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SABR_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "ResidualPixel_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SRL_FG_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "BCE_Dice_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SRL_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SABR_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "ResidualPixel_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SRL_FG_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "BCE_Dice_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SRL_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SABR_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "ResidualPixel_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "SRL_FG_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "UNet_softDice_clDice_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "FlatUNet_BCE_seed20260831",
+        "parameters": 258081,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "FlatUNet_BCE_seed20260901",
+        "parameters": 258081,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "UNet_softDice_clDice_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "UNet_softDice_clDice_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "FlatUNet_BCE_seed20260902",
+        "parameters": 258081,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "UNet_region_clDice_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "UNet_region_clDice_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      },
+      {
+        "run": "UNet_region_clDice_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true
+      }
+    ],
+    "archive_sha256": "6b3e995b885b082ab97a682f7d24d755d13f9fd7d4ad2d4eaf7afbc36a71c40f",
+    "GPU_inference_run": false,
+    "full_dataset_inference_run": false
+  },
+  "data_check": {
+    "status": "PASS",
+    "copies": 1154,
+    "observations": 707,
+    "images_verified": true,
+    "split_counts": {
+      "train": 812,
+      "validation": 172,
+      "internal_test": 170
+    },
+    "qc_exclusions": 2
+  },
+  "interfaces": {
+    "status": "PASS",
+    "public_commands": 18,
+    "interface_checks": 26,
+    "documented_commands": 40,
+    "outside_working_directory": true,
+    "relative_config_checked": true,
+    "na_rows": {
+      "references": 1368,
+      "segmentation": 324
+    }
+  },
+  "full_diagnostics": {
+    "status": "PASS_ALL_NEW_DIAGNOSTICS_COMPLETE",
+    "source_input_hashes_unchanged": true,
+    "runtime_exact_lock_match": {
+      "python": "3.12.9",
+      "numpy": "2.4.6",
+      "scipy": "1.15.2",
+      "skimage": "0.25.0"
+    },
+    "opencv_version": "4.11.0",
+    "unchanged_frozen_rasterize_ast_extracted": true,
+    "same_r3_both90_matching": true,
+    "no_new_threshold_search": true,
+    "old_prediction_reference_rows_exactly_replayed": 12312,
+    "reference_mask_copies": 170,
+    "reference_mask_reference_instances": 1368,
+    "copy_pairs": 84,
+    "multicopy_observations": 40,
+    "candidate_mode_rows_including_na": 42,
+    "candidate_na_rows": 3,
+    "paired_length_comparisons": 36,
+    "one_to_one_assignment_checks": true,
+    "copy_pair_direction_cardinality_equal": true,
+    "prediction_masks_sha256_verified": 972,
+    "no_training_inference_or_remote_tasks": true,
+    "elapsed_seconds": 320.76717709999866,
+    "completed_at_utc": "2026-10-05T12:28:02.363834+00:00"
+  },
+  "region_CPU_smoke": {
+    "status": "LOCAL_CPU_SMOKE_PASSED",
+    "cpu_resume": {
+      "model_optimizer_rng_loss_exact": true,
+      "shape": [
+        2,
+        1,
+        64,
+        64
+      ],
+      "epochs": 2,
+      "real_data_used": false,
+      "initial_digest": "c61cae70e361a4f36d469a81fc5caa3d072e79b91d4fceb69ebc2b9e21d53b72"
+    },
+    "initialization_hashes_match_archived_GPU": false,
+    "code_drift_rejected": true
+  },
+  "two_rank_CPU_Gloo": {
+    "status": "NOT_VERIFIED_ENVIRONMENT_FAILURE",
+    "error_category": "makeDeviceForHostname unsupported gloo device",
+    "platform": "Windows",
+    "original_source_modified": false
+  },
+  "current_figures": {
+    "status": "PASS_CURRENT_MANUSCRIPT_FIGURE_EXPORTS",
+    "figures": 16,
+    "source_data_files_equal_current_manuscript": 16,
+    "alignment_and_collision": true,
+    "minimum_pdf_font_pt": 5.0,
+    "static_false_positives_recorded": true
+  },
+  "unexecuted": [
+    "full-split inference",
+    "image-based39threshold reconstruction",
+    "GPU component inference",
+    "target Linux/T4 preflight",
+    "two-GPU formal training",
+    "historical Flat epoch92 resume"
+  ],
+  "GPU_training_executed": false,
+  "remote_upload_executed": false,
+  "original_paper_files_written": false,
+  "source_copy_scope": "Historical checks were performed before canonical naming; the independently repeated current-copy checks are in NORMALIZATION_VALIDATION.json.",
+  "current_copy_revalidation": "NORMALIZATION_VALIDATION.json"
+}

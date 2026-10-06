@@ -1,0 +1,28 @@
+{
+  "plot_runtime": [
+    {
+      "file": "audit_panel_alignment.py",
+      "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "bytes": 39364
+    },
+    {
+      "file": "audit_figure_collisions.py",
+      "sha256": "841ede7dcaefa3ab11576b5ba52375d1678a71f77d39f553d5464e81b0699283",
+      "bytes": 27343
+    }
+  ],
+  "additional_validation": [
+    {
+      "file": "validate_figure.py",
+      "sha256": "c548e180d31fc1557cbfcd452ab78c7a969273a80b311068aa80acfe86ecfd90",
+      "bytes": 33178
+    },
+    {
+      "file": "audit_pdf_text.py",
+      "sha256": "11b8f3ec50bc13e2bd8561eeb7cd204307f4ce5a70ac57fa24c809ce1b9c252c",
+      "bytes": 5545
+    }
+  ],
+  "redistribution": "not verified; tools remain external",
+  "installation": "Supply the exact scripts and installed Matplotlib/PyMuPDF through --qa-tools-root. No unverified URL is supplied."
+}

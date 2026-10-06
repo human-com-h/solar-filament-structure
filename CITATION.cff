@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript listed in preferred-citation."
+type: software
+title: "Solar filament structure: segmentation and main-axis extraction"
+license: MIT
+authors:
+  - family-names: Hao
+    given-names: Zida
+    affiliation: "School of Software, Xinjiang University"
+  - family-names: Li
+    given-names: Yubo
+    affiliation: "School of Software, Xinjiang University"
+abstract: "Code and reproduction workflows for an eight-method, three-seed study of structural supervision and solar filament main-axis extraction."
+preferred-citation:
+  type: unpublished
+  title: "Evaluating structural supervision and main-axis extraction for solar filament segmentation"
+  authors:
+    - family-names: Hao
+      given-names: Zida
+    - family-names: Li
+      given-names: Yubo
+  notes: "Manuscript."

@@ -1,0 +1,54 @@
+{
+  "checked_on": "2026-10-06",
+  "dataset_record": "https://doi.org/10.7910/DVN/J6JNVK",
+  "metadata_endpoint": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/J6JNVK",
+  "dataset_version": "1.0",
+  "dataset_state": "RELEASED",
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+    "iconUri": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
+  },
+  "metadata_sha256": "de53ff5bc9763a21aa1f81a4ac2aef8551c73d78228b43820d4a2c2eb645dca3",
+  "files": [
+    {
+      "role": "MAGFiLO annotations",
+      "file_id": 10407987,
+      "filename": "magfilo_2024_v1.0.json",
+      "bytes": 60602626,
+      "checksum": {
+        "type": "MD5",
+        "value": "bfa414567b4dfa2a6b4a9eccedb6aa20"
+      },
+      "url": "https://dataverse.harvard.edu/api/access/datafile/10407987",
+      "header_check": {
+        "url": "https://dataverse.harvard.edu/api/access/datafile/10407987",
+        "status": 200,
+        "content_type": "application/json",
+        "content_length": "60602626",
+        "content_disposition": "attachment; filename*=UTF-8''magfilo_2024_v1.0.json"
+      }
+    },
+    {
+      "role": "Observation URL index",
+      "file_id": 10409204,
+      "filename": "[metadata]_active_observations_url.json",
+      "bytes": 4578036,
+      "checksum": {
+        "type": "MD5",
+        "value": "67c228c0409490f7acedc90740331f82"
+      },
+      "url": "https://dataverse.harvard.edu/api/access/datafile/10409204",
+      "header_check": {
+        "url": "https://dataverse.harvard.edu/api/access/datafile/10409204",
+        "status": 200,
+        "content_type": "application/json",
+        "content_length": "4578036",
+        "content_disposition": "attachment; filename*=UTF-8''%5Bmetadata%5D_active_observations_url.json"
+      }
+    }
+  ],
+  "validation": "API metadata and HTTP HEAD only; file bodies were not downloaded",
+  "scope": "Public source release; exact study annotation and image identities remain separately checked",
+  "paper": "https://doi.org/10.1038/s41597-024-03876-y"
+}

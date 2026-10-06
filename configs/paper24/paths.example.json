@@ -1,0 +1,8 @@
+{
+  "data_root": null,
+  "weights_root": null,
+  "evidence_root": null,
+  "output_root": null,
+  "annotation": "train/MAGFiLO_1.0_Annotations_kaggle2026_train.json",
+  "images": "train/train_images"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solar-filament-structure"
+version = "0.1.0"
+description = "Frozen execution sources for structural supervision and solar filament axis extraction"
+license = {file = "LICENSE"}
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[project.optional-dependencies]
+cpu = ["numpy==2.4.6", "scipy==1.15.2", "scikit-image==0.25.0", "Pillow>=11,<12", "opencv-python-headless>=4.11,<5", "psutil>=7,<8"]
+plots = ["pandas>=2.2,<3", "matplotlib>=3.9,<4", "PyMuPDF>=1.26,<1.27"]
+tests = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+

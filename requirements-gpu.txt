@@ -1,0 +1,10 @@
+# Install with the locked Python 3.12.13 Linux runtime.
+# Install torch==2.10.0+cu128 separately with its index from RUNTIME_SPEC.json.
+# Expected CUDA 12.8 and cuDNN 91002 are verified by the original preflight.
+numpy==2.0.2
+Pillow==11.3.0
+scipy==1.16.3
+scikit-image==0.25.2
+psutil==7.0.0
+# Native evaluation and portable target construction additionally require:
+opencv-python-headless==4.11.0.86

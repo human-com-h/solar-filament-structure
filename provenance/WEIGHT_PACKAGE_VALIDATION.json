@@ -1,0 +1,228 @@
+{
+  "status": "PASS_NEUTRAL_WEIGHT_PACKAGE",
+  "archive": "solar-filament-weights.zip",
+  "bytes": 606442575,
+  "sha256": "77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86",
+  "models": 24,
+  "single_level": true,
+  "member_export_bytes_unchanged": true,
+  "serialized_text_metadata_checked": true,
+  "entries": [
+    {
+      "run": "BCE_Dice_seed20260831",
+      "method": "BCE_Dice",
+      "seed": 20260831,
+      "path": "models/BCE_Dice_seed20260831.pt",
+      "bytes": 31109490,
+      "sha256": "fe9c5d4e0f3df94c6ce7c8b5ca81e8b71b8ff6a033e39ef87ca64a7f36f3c07d",
+      "tensor_sha256": "87f52846bb60feeb57606a97925d4a69384404d2f63f67ef56e7ff6aa9877de5"
+    },
+    {
+      "run": "SRL_seed20260831",
+      "method": "SRL",
+      "seed": 20260831,
+      "path": "models/SRL_seed20260831.pt",
+      "bytes": 31108880,
+      "sha256": "258f49be89e6d860a6055992e72c0533ce06e7daa113938757e42bb8198eb042",
+      "tensor_sha256": "e19386afa96eb82bcfec0194e41d63a6c2b07554243f68ad3fe849f1bef29956"
+    },
+    {
+      "run": "SABR_seed20260831",
+      "method": "SABR",
+      "seed": 20260831,
+      "path": "models/SABR_seed20260831.pt",
+      "bytes": 31109002,
+      "sha256": "85f9c712222f8b89f0dcc003cec57e7679167c81edf4b9499d57528059550da3",
+      "tensor_sha256": "2131bdfc3daafdd6c552520e45d22821ca4b1090c5e351dd963895d559f67807"
+    },
+    {
+      "run": "ResidualPixel_seed20260831",
+      "method": "ResidualPixel",
+      "seed": 20260831,
+      "path": "models/ResidualPixel_seed20260831.pt",
+      "bytes": 31110164,
+      "sha256": "b9a297bce8bb7fda1b515690902968a4a2aca1da37c77a9c993fc5488bd3399f",
+      "tensor_sha256": "363a54db04e5bcf31455b6849fa0225cf6df3edd4b0db781f862490b59eec152"
+    },
+    {
+      "run": "SRL_FG_seed20260831",
+      "method": "SRL_FG",
+      "seed": 20260831,
+      "path": "models/SRL_FG_seed20260831.pt",
+      "bytes": 31109246,
+      "sha256": "e4eac716b2cf68d7f651c5a9b294273db0bb539dbc6cb1063551514b35391386",
+      "tensor_sha256": "1c2bafda756dbdeae3b924499420aa5e115ce71ea187d5b616ba49ffb4dc5f67"
+    },
+    {
+      "run": "BCE_Dice_seed20260901",
+      "method": "BCE_Dice",
+      "seed": 20260901,
+      "path": "models/BCE_Dice_seed20260901.pt",
+      "bytes": 31109490,
+      "sha256": "905628293855d3823f7e162d152219751856f74af20917578148e6df2e018a94",
+      "tensor_sha256": "0c1281d33fdb1ce0ea8e5998e67220bce398dbea308f80f147dca0b1cdd69dbe"
+    },
+    {
+      "run": "SRL_seed20260901",
+      "method": "SRL",
+      "seed": 20260901,
+      "path": "models/SRL_seed20260901.pt",
+      "bytes": 31108880,
+      "sha256": "21150b1681a37eb9cdeb0a4a73e2214cc0d49bf4f52b1645105bd8accd449ff9",
+      "tensor_sha256": "7c910401337144c10c4693f8504a7bbda7e2a9bfebcdead7f1001248011401ac"
+    },
+    {
+      "run": "SABR_seed20260901",
+      "method": "SABR",
+      "seed": 20260901,
+      "path": "models/SABR_seed20260901.pt",
+      "bytes": 31109002,
+      "sha256": "9a5030ac57887947ec22cd18a39b835abf3fb56515a2881df72ae010e45ecf42",
+      "tensor_sha256": "2aba15aea3517435d65f4d7485c01df61a1a508d2f17e2e86fb1ee035347f51d"
+    },
+    {
+      "run": "ResidualPixel_seed20260901",
+      "method": "ResidualPixel",
+      "seed": 20260901,
+      "path": "models/ResidualPixel_seed20260901.pt",
+      "bytes": 31110164,
+      "sha256": "b13d9170c6d445decb2fe162d22e423951488ea5ec36bd86157bd452cf1c8cf7",
+      "tensor_sha256": "49bc6c884bc67bb5b100c4de6a143fa585454ad7c9c4030f21825cf3943615ee"
+    },
+    {
+      "run": "SRL_FG_seed20260901",
+      "method": "SRL_FG",
+      "seed": 20260901,
+      "path": "models/SRL_FG_seed20260901.pt",
+      "bytes": 31109246,
+      "sha256": "d0e0a4f5f1386f9060f931d5a3779b03efe7a5f91a58aef4cb8333c0e2ea503d",
+      "tensor_sha256": "cbca3d4e5ef4675251507e23acce8014a27d12e65fc7c3347b6bedd67519da74"
+    },
+    {
+      "run": "BCE_Dice_seed20260902",
+      "method": "BCE_Dice",
+      "seed": 20260902,
+      "path": "models/BCE_Dice_seed20260902.pt",
+      "bytes": 31109490,
+      "sha256": "e30c1e30b3841c2a2a15f6db1a554760eebb66204f78de22946231d845cf018c",
+      "tensor_sha256": "1fa8f2ed03f4e719a7e587699758e5e00d9a9e60034902520779bf0b54e03c33"
+    },
+    {
+      "run": "SRL_seed20260902",
+      "method": "SRL",
+      "seed": 20260902,
+      "path": "models/SRL_seed20260902.pt",
+      "bytes": 31108880,
+      "sha256": "88ac36f77f489261a940a07790030c569a85d5b8a583c85a637a662e77abe169",
+      "tensor_sha256": "49a100aa6577938f8d5d0ab066e8e3f6f00f905e392ffa07e66e8e282d76a6d3"
+    },
+    {
+      "run": "SABR_seed20260902",
+      "method": "SABR",
+      "seed": 20260902,
+      "path": "models/SABR_seed20260902.pt",
+      "bytes": 31109002,
+      "sha256": "52a411452c147cdf0cb34978f8170e40a8a39d0198d5ed74471ad7cadf1e2640",
+      "tensor_sha256": "94b072845856105686c9f7eb3661ee37d3dab5bad67af40ff7c82b2883e3939b"
+    },
+    {
+      "run": "ResidualPixel_seed20260902",
+      "method": "ResidualPixel",
+      "seed": 20260902,
+      "path": "models/ResidualPixel_seed20260902.pt",
+      "bytes": 31110164,
+      "sha256": "1571e45c42b94590a6d4294cfc4e33a5252438ad62358b57d291500f6cd84d81",
+      "tensor_sha256": "0b9fbf32a794288d62f8e30def0e716c27b2c9363d86c340c4975ee939e1fee3"
+    },
+    {
+      "run": "SRL_FG_seed20260902",
+      "method": "SRL_FG",
+      "seed": 20260902,
+      "path": "models/SRL_FG_seed20260902.pt",
+      "bytes": 31109246,
+      "sha256": "a4b35a0646c618c9209fc93c231ad4e455efafeb78ddbb39055241275551663f",
+      "tensor_sha256": "795db960550a3d30f8c82b8845ad5dd5ecf4a625ed785f0451eb6bbd0f89d581"
+    },
+    {
+      "run": "UNet_softDice_clDice_seed20260831",
+      "method": "UNet_softDice_clDice",
+      "seed": 20260831,
+      "path": "models/UNet_softDice_clDice_seed20260831.pt",
+      "bytes": 31111082,
+      "sha256": "a85e9b1e01923f9eea297863abda03465b8fabe366ef22850d9204132220120f",
+      "tensor_sha256": "d12f79b83097f98c67f89b3d141c4b7051c832cb6c4e1731bf94939fdd3660e0"
+    },
+    {
+      "run": "FlatUNet_BCE_seed20260831",
+      "method": "FlatUNet_BCE",
+      "seed": 20260831,
+      "path": "models/FlatUNet_BCE_seed20260831.pt",
+      "bytes": 1061578,
+      "sha256": "e0b85496db56bc7e789df524f3ef9cfda7375684cb64b89839309fd0d52b15c0",
+      "tensor_sha256": "334c39268d0a225b19479de4505119e9016207b74e4e2385871175680727a123"
+    },
+    {
+      "run": "FlatUNet_BCE_seed20260901",
+      "method": "FlatUNet_BCE",
+      "seed": 20260901,
+      "path": "models/FlatUNet_BCE_seed20260901.pt",
+      "bytes": 1061578,
+      "sha256": "bb3f94f4b02159cf6b9eb610bf7ff65edb5f0fe24eefe84dde7db7b4f59c57af",
+      "tensor_sha256": "34108f177e6a49a31f238e31fa0f0dcf888bb6cadea9f13ff59100fe7be367f8"
+    },
+    {
+      "run": "UNet_softDice_clDice_seed20260901",
+      "method": "UNet_softDice_clDice",
+      "seed": 20260901,
+      "path": "models/UNet_softDice_clDice_seed20260901.pt",
+      "bytes": 31111082,
+      "sha256": "15f17bb88187874793a4a8f634ce5d75c197d4a6ea7186605311233d027b45c8",
+      "tensor_sha256": "88383bf4c4b1ff3512542d90d7c9a131735dd2118124185660c4fb3236909d0d"
+    },
+    {
+      "run": "UNet_softDice_clDice_seed20260902",
+      "method": "UNet_softDice_clDice",
+      "seed": 20260902,
+      "path": "models/UNet_softDice_clDice_seed20260902.pt",
+      "bytes": 31111082,
+      "sha256": "d346512601a1d951459c6ddd3920654556a126eab6360d0deac474e3b1ffc7d7",
+      "tensor_sha256": "0e92aaa419c7eb6d6ddce23292b6b3be2347a13a4de01f1289f7240a2a7c89fc"
+    },
+    {
+      "run": "FlatUNet_BCE_seed20260902",
+      "method": "FlatUNet_BCE",
+      "seed": 20260902,
+      "path": "models/FlatUNet_BCE_seed20260902.pt",
+      "bytes": 1061578,
+      "sha256": "6152cd01b7a5c9b7d477a24587d6811e672e00c08e5421d988ad1867fded5b9d",
+      "tensor_sha256": "93cd05eb43c1fa9d1dcba522f19a3a7847df2e09c55c9ce00abec61c5de99f74"
+    },
+    {
+      "run": "UNet_region_clDice_seed20260831",
+      "method": "UNet_region_clDice",
+      "seed": 20260831,
+      "path": "models/UNet_region_clDice_seed20260831.pt",
+      "bytes": 31110838,
+      "sha256": "d3e2782a7711468e1d2c03f4f963b29cc0c5258fab4caa3ae81f197e61b3f6d3",
+      "tensor_sha256": "54c44be563ed762525be99f7f410fa0d35ea8f7832890598e166bc33c97f73a0"
+    },
+    {
+      "run": "UNet_region_clDice_seed20260901",
+      "method": "UNet_region_clDice",
+      "seed": 20260901,
+      "path": "models/UNet_region_clDice_seed20260901.pt",
+      "bytes": 31110838,
+      "sha256": "a263d54c92a25fbe37bd1049931ed00c3fc1495fac7ecd6344703f799ae281d2",
+      "tensor_sha256": "88bb09de6c042ab045126e1bb5fdbbc236ad8019147d6976749e64b06daa2db0"
+    },
+    {
+      "run": "UNet_region_clDice_seed20260902",
+      "method": "UNet_region_clDice",
+      "seed": 20260902,
+      "path": "models/UNet_region_clDice_seed20260902.pt",
+      "bytes": 31110838,
+      "sha256": "fc2fc25f9c0c23363e5a1fef8dbaa5dbfdc6c12109dc19fca04e116208fd9602",
+      "tensor_sha256": "ad0b24e47db6073edb4ef6a67931c18bcb85de90298929aaa591a4c04c9d656f"
+    }
+  ]
+}

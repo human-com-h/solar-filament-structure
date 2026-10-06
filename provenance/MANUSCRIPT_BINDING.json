@@ -1,0 +1,65 @@
+{
+  "version": "paper-v5",
+  "title": "Evaluating structural supervision and main-axis extraction for solar filament segmentation",
+  "model_rows": 24,
+  "methods": 8,
+  "seeds": [
+    20260831,
+    20260901,
+    20260902
+  ],
+  "source_files": [
+    {
+      "path": "project/submission_final_20261005/VERSION_INDEX.json",
+      "sha256": "4dcd8d75a39f7e1f4a7e9f5f9c498a451b0d7b0c0442d0408899d7127b7641d5"
+    },
+    {
+      "path": "project/submission_final_20261005/MODEL_EVIDENCE_INDEX_24.csv",
+      "sha256": "3ec0c35bd8cf8ae34c8f3b899d74a5ab952bc49ac9522d6ac47fae10628a66a1"
+    },
+    {
+      "path": "project/submission_final_20261005/S11_TABLE_FILE_INDEX.csv",
+      "sha256": "cd6022e781b7f628197fbda032db017d5816393a75b1a964ffd710041c6a30ce"
+    },
+    {
+      "path": "project/submission_final_20261005/SOURCE_LICENSE_METADATA.json",
+      "sha256": "2a4eca3416c0aad383f3c131a968a893c20a40b22303d353fd182e6d78ed6920"
+    },
+    {
+      "path": "project/submission_final_20261005/TERMINOLOGY_AND_CLAIMS_CN.md",
+      "sha256": "936da927c3bbf998e27f2c91ac78a594ce9f59ef03f67c546de0e4cdaaf3a6f1"
+    },
+    {
+      "path": "project/submission_final_20261005/ACCESS_INSTRUCTIONS_CN_EN.md",
+      "sha256": "2bfd431547a42d1a6aad2f670ddbe9d87a9807f5606793a6a5ad439cbe20524d"
+    },
+    {
+      "path": "project/submission_final_20261005/manuscript/filament_structure_revised.md",
+      "sha256": "a49f4f244d0a0f21a11a131b7d10df3bc76290255b9ccf81d34ceeddd4865c96"
+    },
+    {
+      "path": "project/submission_final_20261005/manuscript/SUPPLEMENTARY_MATERIAL.md",
+      "sha256": "72b52b462b43f9dec6390fee14f610b84a8bf66d9b930dd63810fc5b1434d79c"
+    }
+  ],
+  "current_pdf_identities": [
+    {
+      "role": "main",
+      "path": "review_package/00_manuscript/filament_structure_main.pdf",
+      "sha256": "183c5d0d305e3c2c267c405d1ea97a2497227b5b61c86f609c870bedcefb1f1f"
+    },
+    {
+      "role": "supplement",
+      "path": "review_package/00_manuscript/filament_structure_supplement.pdf",
+      "sha256": "eafa866fc99db6641885639e7facea73226a230f5afe067068a166997df836b9"
+    }
+  ],
+  "model_changes_since_v3": [
+    "submission_version"
+  ],
+  "manuscript_table_numbers_equal_to_v3": true,
+  "display_equations_equal_to_v3": true,
+  "frozen_source_archive_sha256": "4aee0f1819080025256a40a05bffce874d5525a77ff230670a6baaf6f206dd35",
+  "display_source_sha256": "0a79868b007455d409b391e442e275650ba486f82f65c8a0ceb45a82e9d9afe6",
+  "paper_files_modified_by_this_preparation": false
+}

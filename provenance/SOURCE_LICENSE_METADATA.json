@@ -1,0 +1,32 @@
+{
+  "annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+  "top_level_keys": [
+    "info",
+    "licenses",
+    "categories",
+    "images",
+    "annotations"
+  ],
+  "info": {
+    "description": "MLEcoFi 2024 Dataset - V1.0",
+    "url": "https://www.mlecofi.net/",
+    "version": "1.0",
+    "year": 2024,
+    "contributor": "MLEcoFi Team",
+    "date_created": "2024-07-15",
+    "team": "Earth-Space AI Research Lab (www.esairlab.com)",
+    "collaborators": [
+      "National Solar Observatory, Georgia State University"
+    ],
+    "date_updated": "2026-06-01"
+  },
+  "licenses": {
+    "url": "https://gong.nso.edu/",
+    "id": 1,
+    "name": "NSO/GONG"
+  },
+  "image_license_counts": {
+    "1": 1154
+  },
+  "scope": "Source JSON declares metadata; validity and competition redistribution terms are not independently verified; no project code licence inferred."
+}

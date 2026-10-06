@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "citation_schema": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/schema.json",
+  "citation_schema_sha256": "17bc7993c67b95eec988dadca78b65cb29cd489d1fceba71040a141dfb9791df",
+  "citation_cff_version": "1.2.0",
+  "preferred_citation": "unpublished manuscript",
+  "project_code_license": "MIT",
+  "third_party_license_files_preserved": true,
+  "public_downloads_checked": 2,
+  "full_data_download_performed": false,
+  "generated_chinese_readme_removed": true,
+  "future_upload_narrative_removed_from_reader_documentation": true,
+  "scientific_core_modified": false
+}

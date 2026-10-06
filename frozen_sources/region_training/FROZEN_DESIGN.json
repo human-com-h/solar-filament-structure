@@ -1,0 +1,80 @@
+{
+  "seeds": [
+    20260831,
+    20260901,
+    20260902
+  ],
+  "split_counts": {
+    "train": 492,
+    "validation": 107,
+    "internal_test": 108
+  },
+  "manifest_sha256": "eb7603b38ef22ffc87b81dfb88afba3833dfb0930290f9d600d70c5be8439129",
+  "annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+  "training": {
+    "resolution": 1024,
+    "batch_size": 2,
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "max_epochs": 150,
+    "patience": 20,
+    "min_delta": 1e-06,
+    "augmentation": "none",
+    "precision": "float32; no AMP",
+    "checkpoint_selection": "validation observation-macro Dice at threshold 0.5 on 1024 grid"
+  },
+  "optimizer": "AdamW; no scheduler",
+  "sample_rule": "one deterministic annotation copy per physical observation per epoch; independent sampler RNG identical across architectures",
+  "operating_point": {
+    "grid": "existing 39 float32 thresholds from threshold_curve.py, unchanged",
+    "precision_floors": {
+      "20260831": 0.6646950447657447,
+      "20260901": 0.6997871087918596,
+      "20260902": 0.6910794546396283
+    },
+    "selection": "validation precision >= archived same-seed BCE_Dice at 0.5; positive foreground; lexicographic max MSC3,-MSGR3,Dice,threshold",
+    "infeasible": "record failure to meet criterion; no grid expansion or replacement. Selected mode NA, retain fixed-0.5 diagnostic. Do not evaluate test-selected mode without feasible lock."
+  },
+  "version": "20261003-region-clDice-v2-single-seed-DDP",
+  "status": "AMENDED_BEFORE_NEW_TRAINING_SINGLE_SEED_DDP",
+  "study_status": "Retrospective supplemental control after old test exposure; not independent confirmation",
+  "original_model_count": 21,
+  "original_results_unchanged": true,
+  "new_training_runs": 3,
+  "methods": [
+    {
+      "id": "UNet_region_clDice",
+      "parameters": 7762465,
+      "configuration": {
+        "base": 32
+      },
+      "objective": "historical per-image 0.5 BCE + 0.5 Dice + 0.05 upstream batch-global soft_cldice",
+      "structural_iterations": 10,
+      "smooth": 1.0,
+      "exclude_background": false
+    }
+  ],
+  "test_execution": "Not included. All 3 validation locks must be audited before separate test evaluation.",
+  "design_cn_sha256": "774147f376ba3e6eadef5469e2d580f867f2d296ce51715d9fbb7de9fe989260",
+  "execution": {
+    "entry": "Kaggle_study_region_clDice_single_seed_T4x2.ipynb",
+    "session_limit_seconds": 43200,
+    "execution_budget_seconds": 42300,
+    "final_collection_reserve_seconds": 900,
+    "external_gate_notebook_required": false,
+    "clock_reset_after_checks": false,
+    "queue": "Exactly one selected seed per session; two GPU ranks train the same model",
+    "selected_seed_parameter": "SEED: 20260831, 20260901 or 20260902",
+    "backend": "DistributedDataParallel NCCL, SyncBatchNorm, autograd-aware global clDice reduction",
+    "world_size": 2,
+    "per_rank_batch_size": 1,
+    "global_batch_size": 2,
+    "validation": "Disjoint observation shards, macro aggregation over all 107 observations",
+    "threshold_export": "Disjoint observation shards; unchanged 39-threshold calculation per observation",
+    "prior_single_GPU_resume_supported": false,
+    "reason_old_resume_is_rejected": "Changed floating-point execution and per-rank RNG identity; no silent mixed trajectory",
+    "runtime_bootstrap": "Preserved v1.2 isolated historical runtime; Internet ON"
+  },
+  "execution_amendment": "User requested one configurable seed per session and both T4 GPUs on that model; scientific hyperparameters unchanged, floating-point trajectory may differ",
+  "runtime_spec_sha256": "c23d12be430aac3568a2192350d3f321bcb01c522541bf0caf2855554b72d37a"
+}

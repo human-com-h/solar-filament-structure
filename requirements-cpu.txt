@@ -1,0 +1,13 @@
+# CPU analysis runtime tested locally with Python 3.12.9.
+# torch is installed separately from its CPU index; standard-library replay
+# needs none of these packages. GPU training uses requirements-gpu.txt.
+numpy==2.4.6
+scipy==1.15.2
+scikit-image==0.25.0
+Pillow>=11,<12
+opencv-python-headless==4.11.0.86
+psutil==7.0.0
+pandas>=2.2,<3
+matplotlib>=3.9,<4
+PyMuPDF>=1.26,<1.27
+pytest>=8,<9

@@ -1,0 +1,89 @@
+{
+  "manuscript_version": "paper-v5",
+  "seeds": [
+    20260831,
+    20260901,
+    20260902
+  ],
+  "methods": {
+    "BCE_Dice": "BCE–Dice",
+    "SRL": "SRL",
+    "SABR": "SABR",
+    "ResidualPixel": "ResidualPixel",
+    "SRL_FG": "SRL–FG",
+    "FlatUNet_BCE": "Flat U-Net",
+    "UNet_softDice_clDice": "soft-clDice",
+    "UNet_region_clDice": "region+clDice"
+  },
+  "threshold_grid": "39 exact float32 candidates from frozen_sources/mechanism/threshold_curve.py",
+  "formal_modes": [
+    "fixed_0.5",
+    "validation_selected"
+  ],
+  "component_radii_training_pixels": [
+    0,
+    1,
+    2
+  ],
+  "spine_radii_native_pixels": [
+    1,
+    3,
+    5
+  ],
+  "axis_radius_native_pixels": 3,
+  "axis_bidirectional_coverage": 0.9,
+  "component_denominator": [
+    101,
+    157,
+    11
+  ],
+  "application_denominator": [
+    108,
+    170,
+    1368,
+    13
+  ],
+  "bootstrap_draws": 100000,
+  "bootstrap_original_seed_offset": 71,
+  "bootstrap_region_segmentation_seed_offset": 7,
+  "bootstrap_region_application_seed_offset": 71,
+  "flat_seed20260901": {
+    "resume_from_epoch": 92,
+    "final_epoch": 150,
+    "best_epoch": 137
+  },
+  "weights_companion": {
+    "file": "solar-filament-weights.zip",
+    "sha256": "77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86",
+    "state_dicts": 24,
+    "optimizer_checkpoints_promised": false,
+    "bytes": 606442575,
+    "layout": "models/<run>.pt; single archive level",
+    "original_container_sha256": "6b3e995b885b082ab97a682f7d24d755d13f9fd7d4ad2d4eaf7afbc36a71c40f",
+    "model_export_bytes_unchanged": true
+  },
+  "raw_annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+  "split_manifest_sha256": "eb7603b38ef22ffc87b81dfb88afba3833dfb0930290f9d600d70c5be8439129",
+  "archive_identities": {
+    "status": "PASS_FROZEN_SCIENTIFIC_MEMBERS_VERIFIED",
+    "source_archive_sha256": "4aee0f1819080025256a40a05bffce874d5525a77ff230670a6baaf6f206dd35",
+    "original_21_nested_zip_sha256": "0fca0a05b7e025fc3c1c14bd9fcd593d9681f43667b867416db8ebae818fcd4c",
+    "members_packaged": 17966,
+    "by_arm": {
+      "region": 2803,
+      "original21": 15163
+    },
+    "historical_members_not_current_deliverables": 125,
+    "source_archives_modified": false,
+    "new_gpu_training": false,
+    "expert_assessment_materials_included": false,
+    "transport_manifest_regenerated_for_retained_subset": true
+  },
+  "display_labels": {
+    "selected_tables": "Infeasible",
+    "undefined_figure_marks": "em dash",
+    "scientific_csv_infeasible_state": "INFEASIBLE_NA",
+    "failed_length_state": "FAIL_NA",
+    "missingness_changed": false
+  }
+}

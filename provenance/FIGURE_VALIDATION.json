@@ -1,0 +1,1009 @@
+{
+  "status": "PASS_CURRENT_MANUSCRIPT_FIGURE_EXPORTS",
+  "version": "paper-v5",
+  "figures": [
+    {
+      "figure": "Figure_1.pdf",
+      "family": "plots_segmentation_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "0b85ff3f1c2183206bd085780a1496b38986c15cd0cc05d83144d3c8a6745b7c",
+      "width_mm": 183.00000559488933,
+      "height_mm": 100.00000076293945,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 30,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_2.pdf",
+      "family": "plots_segmentation_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "26cecc0ce8efa3d7ecf5bc625c166edd2091b1f6174dbebf5718721c4b7fd33e",
+      "width_mm": 183.00000559488933,
+      "height_mm": 104.99999703301324,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 44,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_3.pdf",
+      "family": "plots_segmentation_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "bd90ded506c58950023900e5b107b814c46e2afb47b1dea56a52d3bea1adf959",
+      "width_mm": 183.00000559488933,
+      "height_mm": 100.00000076293945,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 37,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S1.pdf",
+      "family": "plots_segmentation_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "596e36244b782ad872ef1d31acaebe944aa5e7c0551c9649bee77a4b7a73781d",
+      "width_mm": 183.00000559488933,
+      "height_mm": 95.00000449286567,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 23,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S2.pdf",
+      "family": "plots_segmentation_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "80a431eaa9e88620588e0001ece6f5795cd3e71b18cce38af4293cd95752e0fa",
+      "width_mm": 183.00000559488933,
+      "height_mm": 155.00000279744464,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 67,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S3.pdf",
+      "family": "plots_segmentation_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "75f7fea11cf2b0b62698a4e7abe476a54a49cd607a7827e9d3034a686ebfa32a",
+      "width_mm": 183.00000559488933,
+      "height_mm": 155.00000279744464,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 76,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S4.pdf",
+      "family": "plots_segmentation_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "08b2d2950d8a9fe8a0a907e2c12d13b51259672fd0345fda8352b6ee89e0c49c",
+      "width_mm": 183.00000559488933,
+      "height_mm": 134.99999618530273,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 54,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_4.pdf",
+      "family": "plots_application_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "e16f4df5adaf5df3a97ac75948d439600b201e2d342be61e30b8ceda91018c46",
+      "width_mm": 183.00000559488933,
+      "height_mm": 146.0000030517578,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 43,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_5.pdf",
+      "family": "plots_application_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "13c51d49d7dd508b2b79d99461c4ef32c3fc2c933e3d3f72e126f508ad4723bf",
+      "width_mm": 183.00000559488933,
+      "height_mm": 104.99999703301324,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 33,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S5.pdf",
+      "family": "plots_application_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "58362dae763a822de292988e5763e16ac2ba7c2223f44344c04fe757da75b833",
+      "width_mm": 183.00000559488933,
+      "height_mm": 104.99999703301324,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 31,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S6.pdf",
+      "family": "plots_application_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "7618caed8290ef399c439c520e7b38179359102a512f5dd34c865b0c312a6b4f",
+      "width_mm": 183.00000559488933,
+      "height_mm": 100.00000076293945,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 21,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S7.pdf",
+      "family": "plots_application_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "f7a41482bc8ed4ff185ed9d692dd44a826e28dedd0fd905021128cd1c294848a",
+      "width_mm": 183.00000559488933,
+      "height_mm": 129.99999991522895,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 84,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S8.pdf",
+      "family": "plots_application_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "c64a34985bd42831fa5a1eff32936f7a7b129b7f0b348c0031b8013fa9249e70",
+      "width_mm": 183.00000559488933,
+      "height_mm": 129.99999991522895,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 88,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_S9.pdf",
+      "family": "plots_application_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "e890cb636a4d79d6b29411f6d0df0a1ba19cec8ffddb5a363682080687c86114",
+      "width_mm": 183.00000559488933,
+      "height_mm": 104.99999703301324,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 48,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_7.pdf",
+      "family": "plots_control_v5",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "ab597511ecd37c2d6a0320bf8d883caab444ed88fd1e1ef942321c910417d712",
+      "width_mm": 173.99999508327906,
+      "height_mm": 65.99999813503689,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 7.0,
+        "text_run_count": 29,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    },
+    {
+      "figure": "Figure_6.pdf",
+      "family": "plots_cases",
+      "source_bytes_match_current_manuscript": true,
+      "source_sha256": "7f66671dceac1729cdc8c23fd5605f8f62f90b03f9d986d5af9ab2bcc4499d5c",
+      "width_mm": 183.00000559488933,
+      "height_mm": 162.99999898274737,
+      "text_audit": {
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.5,
+        "text_run_count": 41,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "visible_NA_absent": true,
+      "selected_footer_absent": true,
+      "exports": [
+        "pdf",
+        "svg",
+        "png",
+        "tiff"
+      ]
+    }
+  ],
+  "alignment_and_collision_checked_by_export_entry": true,
+  "scientific_source_files_byte_identical": 16,
+  "visual_inspection": "all16 contact sheet and enlarged Figure6; current v5 Figure1, Figure4 and FigureS2 inspected after display-label adaptation",
+  "original_source_static_checker_limits": [
+    {
+      "source": "build_application_figures.py",
+      "summary": {
+        "ready": true,
+        "strict": false,
+        "counts": {
+          "PASS": 21,
+          "WARN": 0,
+          "FAIL": 0
+        }
+      },
+      "findings": [
+        {
+          "check_id": "SOURCE-SYNTAX",
+          "level": "PASS",
+          "message": "Python source parses successfully",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-FAMILY",
+          "level": "PASS",
+          "message": "A publication-safe sans-serif family is configured",
+          "evidence": [
+            "Arial",
+            "sans-serif"
+          ]
+        },
+        {
+          "check_id": "FONT-SIZE",
+          "level": "PASS",
+          "message": "All detected text sizes are at least 5 pt (minimum 7 pt)",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-GLYPH-FLOOR",
+          "level": "PASS",
+          "message": "No mathtext superscript/subscript expression detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LEGEND-LABEL-CASE",
+          "level": "PASS",
+          "message": "No auditable literal legend labels detected",
+          "evidence": []
+        },
+        {
+          "check_id": "COLOR-MAP",
+          "level": "PASS",
+          "message": "No rainbow/jet/hsv color mapping detected",
+          "evidence": []
+        },
+        {
+          "check_id": "EDITABLE-TEXT",
+          "level": "PASS",
+          "message": "SVG and PDF editable-text settings are configured",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-VECTOR",
+          "level": "PASS",
+          "message": "Both SVG and PDF exports are present",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "PASS",
+          "message": "TIFF raster export is present",
+          "evidence": []
+        },
+        {
+          "check_id": "RASTER-DPI",
+          "level": "PASS",
+          "message": "A raster export of at least 600 dpi is configured",
+          "evidence": [
+            "600"
+          ]
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "PASS",
+          "message": "Detected width 183.0 mm matches a common journal column width",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-SAMPLING",
+          "level": "PASS",
+          "message": "No high-confidence row-sampling operation detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "PASS",
+          "message": "No high-confidence missing-data exclusion detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DEMO-DATA",
+          "level": "PASS",
+          "message": "No obvious simulated-data generator detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LOG-GUARD",
+          "level": "PASS",
+          "message": "No logarithmic transform or axis detected",
+          "evidence": []
+        },
+        {
+          "check_id": "INTERP-MONOTONIC",
+          "level": "PASS",
+          "message": "No NumPy interpolation requiring an increasing x-grid detected",
+          "evidence": []
+        },
+        {
+          "check_id": "UNCERTAINTY-ENCODING",
+          "level": "PASS",
+          "message": "A stochastic aggregate and uncertainty encoding are both present; still verify every comparable panel",
+          "evidence": [
+            "xerr=",
+            ".errorbar("
+          ]
+        },
+        {
+          "check_id": "ROTATION-ANCHOR",
+          "level": "PASS",
+          "message": "No rotated Matplotlib text detected",
+          "evidence": []
+        },
+        {
+          "check_id": "ANNOTATION-WORKAROUND",
+          "level": "PASS",
+          "message": "No high-risk hard-coded label height or opaque white text mask detected",
+          "evidence": []
+        },
+        {
+          "check_id": "PANEL-ALIGNMENT-GATE",
+          "level": "PASS",
+          "message": "Render-time panel-alignment gate is wired into the plotting source",
+          "evidence": [
+            "require_matplotlib_panel_alignment("
+          ]
+        },
+        {
+          "check_id": "BACKEND-EXCLUSIVE",
+          "level": "PASS",
+          "message": "No obvious cross-backend plotting reference found for python",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source": "build_morphology_figure.py",
+      "summary": {
+        "ready": true,
+        "strict": false,
+        "counts": {
+          "PASS": 21,
+          "WARN": 0,
+          "FAIL": 0
+        }
+      },
+      "findings": [
+        {
+          "check_id": "SOURCE-SYNTAX",
+          "level": "PASS",
+          "message": "Python source parses successfully",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-FAMILY",
+          "level": "PASS",
+          "message": "A publication-safe sans-serif family is configured",
+          "evidence": [
+            "Arial",
+            "sans-serif"
+          ]
+        },
+        {
+          "check_id": "FONT-SIZE",
+          "level": "PASS",
+          "message": "All detected text sizes are at least 5 pt (minimum 6.5 pt)",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-GLYPH-FLOOR",
+          "level": "PASS",
+          "message": "No mathtext superscript/subscript expression detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LEGEND-LABEL-CASE",
+          "level": "PASS",
+          "message": "No auditable literal legend labels detected",
+          "evidence": []
+        },
+        {
+          "check_id": "COLOR-MAP",
+          "level": "PASS",
+          "message": "No rainbow/jet/hsv color mapping detected",
+          "evidence": []
+        },
+        {
+          "check_id": "EDITABLE-TEXT",
+          "level": "PASS",
+          "message": "SVG and PDF editable-text settings are configured",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-VECTOR",
+          "level": "PASS",
+          "message": "Both SVG and PDF exports are present",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "PASS",
+          "message": "TIFF raster export is present",
+          "evidence": []
+        },
+        {
+          "check_id": "RASTER-DPI",
+          "level": "PASS",
+          "message": "A raster export of at least 600 dpi is configured",
+          "evidence": [
+            "600"
+          ]
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "PASS",
+          "message": "Detected width 183.0 mm matches a common journal column width",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-SAMPLING",
+          "level": "PASS",
+          "message": "No high-confidence row-sampling operation detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "PASS",
+          "message": "No high-confidence missing-data exclusion detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DEMO-DATA",
+          "level": "PASS",
+          "message": "No obvious simulated-data generator detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LOG-GUARD",
+          "level": "PASS",
+          "message": "No logarithmic transform or axis detected",
+          "evidence": []
+        },
+        {
+          "check_id": "INTERP-MONOTONIC",
+          "level": "PASS",
+          "message": "No NumPy interpolation requiring an increasing x-grid detected",
+          "evidence": []
+        },
+        {
+          "check_id": "UNCERTAINTY-ENCODING",
+          "level": "PASS",
+          "message": "No stochastic aggregate requiring a variability audit was inferred",
+          "evidence": []
+        },
+        {
+          "check_id": "ROTATION-ANCHOR",
+          "level": "PASS",
+          "message": "No rotated Matplotlib text detected",
+          "evidence": []
+        },
+        {
+          "check_id": "ANNOTATION-WORKAROUND",
+          "level": "PASS",
+          "message": "No high-risk hard-coded label height or opaque white text mask detected",
+          "evidence": []
+        },
+        {
+          "check_id": "PANEL-ALIGNMENT-GATE",
+          "level": "PASS",
+          "message": "Render-time panel-alignment gate is wired into the plotting source",
+          "evidence": [
+            "require_matplotlib_panel_alignment("
+          ]
+        },
+        {
+          "check_id": "BACKEND-EXCLUSIVE",
+          "level": "PASS",
+          "message": "No obvious cross-backend plotting reference found for python",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source": "build_segmentation_figures.py",
+      "summary": {
+        "ready": true,
+        "strict": false,
+        "counts": {
+          "PASS": 20,
+          "WARN": 1,
+          "FAIL": 0
+        }
+      },
+      "findings": [
+        {
+          "check_id": "SOURCE-SYNTAX",
+          "level": "PASS",
+          "message": "Python source parses successfully",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-FAMILY",
+          "level": "PASS",
+          "message": "A publication-safe sans-serif family is configured",
+          "evidence": [
+            "Arial",
+            "sans-serif"
+          ]
+        },
+        {
+          "check_id": "FONT-SIZE",
+          "level": "PASS",
+          "message": "All detected text sizes are at least 5 pt (minimum 7 pt)",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-GLYPH-FLOOR",
+          "level": "PASS",
+          "message": "No mathtext superscript/subscript expression detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LEGEND-LABEL-CASE",
+          "level": "PASS",
+          "message": "No auditable literal legend labels detected",
+          "evidence": []
+        },
+        {
+          "check_id": "COLOR-MAP",
+          "level": "PASS",
+          "message": "No rainbow/jet/hsv color mapping detected",
+          "evidence": []
+        },
+        {
+          "check_id": "EDITABLE-TEXT",
+          "level": "PASS",
+          "message": "SVG and PDF editable-text settings are configured",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-VECTOR",
+          "level": "PASS",
+          "message": "Both SVG and PDF exports are present",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "PASS",
+          "message": "TIFF raster export is present",
+          "evidence": []
+        },
+        {
+          "check_id": "RASTER-DPI",
+          "level": "PASS",
+          "message": "A raster export of at least 600 dpi is configured",
+          "evidence": [
+            "600"
+          ]
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "PASS",
+          "message": "Detected width 183.0 mm matches a common journal column width",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-SAMPLING",
+          "level": "PASS",
+          "message": "No high-confidence row-sampling operation detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "PASS",
+          "message": "No high-confidence missing-data exclusion detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DEMO-DATA",
+          "level": "PASS",
+          "message": "No obvious simulated-data generator detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LOG-GUARD",
+          "level": "PASS",
+          "message": "No logarithmic transform or axis detected",
+          "evidence": []
+        },
+        {
+          "check_id": "INTERP-MONOTONIC",
+          "level": "PASS",
+          "message": "No NumPy interpolation requiring an increasing x-grid detected",
+          "evidence": []
+        },
+        {
+          "check_id": "UNCERTAINTY-ENCODING",
+          "level": "WARN",
+          "message": "Seed/fold/split aggregates are present without an obvious error bar or uncertainty band",
+          "evidence": [
+            "SEEDS",
+            "mean"
+          ]
+        },
+        {
+          "check_id": "ROTATION-ANCHOR",
+          "level": "PASS",
+          "message": "Every detected rotated text call uses anchor-based placement",
+          "evidence": [
+            "line 203: rotation=..."
+          ]
+        },
+        {
+          "check_id": "ANNOTATION-WORKAROUND",
+          "level": "PASS",
+          "message": "No high-risk hard-coded label height or opaque white text mask detected",
+          "evidence": []
+        },
+        {
+          "check_id": "PANEL-ALIGNMENT-GATE",
+          "level": "PASS",
+          "message": "Render-time panel-alignment gate is wired into the plotting source",
+          "evidence": [
+            "require_matplotlib_panel_alignment("
+          ]
+        },
+        {
+          "check_id": "BACKEND-EXCLUSIVE",
+          "level": "PASS",
+          "message": "No obvious cross-backend plotting reference found for python",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "source": "plot_control.py",
+      "summary": {
+        "ready": false,
+        "strict": false,
+        "counts": {
+          "PASS": 19,
+          "WARN": 1,
+          "FAIL": 1
+        }
+      },
+      "findings": [
+        {
+          "check_id": "SOURCE-SYNTAX",
+          "level": "PASS",
+          "message": "Python source parses successfully",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-FAMILY",
+          "level": "PASS",
+          "message": "A publication-safe sans-serif family is configured",
+          "evidence": [
+            "Arial"
+          ]
+        },
+        {
+          "check_id": "FONT-SIZE",
+          "level": "PASS",
+          "message": "All detected text sizes are at least 5 pt (minimum 7 pt)",
+          "evidence": []
+        },
+        {
+          "check_id": "FONT-GLYPH-FLOOR",
+          "level": "PASS",
+          "message": "No mathtext superscript/subscript expression detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LEGEND-LABEL-CASE",
+          "level": "PASS",
+          "message": "No auditable literal legend labels detected",
+          "evidence": []
+        },
+        {
+          "check_id": "COLOR-MAP",
+          "level": "PASS",
+          "message": "No rainbow/jet/hsv color mapping detected",
+          "evidence": []
+        },
+        {
+          "check_id": "EDITABLE-TEXT",
+          "level": "PASS",
+          "message": "SVG and PDF editable-text settings are configured",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-VECTOR",
+          "level": "PASS",
+          "message": "Both SVG and PDF exports are present",
+          "evidence": []
+        },
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "FAIL",
+          "message": "No TIFF or PNG raster export found",
+          "evidence": []
+        },
+        {
+          "check_id": "RASTER-DPI",
+          "level": "PASS",
+          "message": "A raster export of at least 600 dpi is configured",
+          "evidence": [
+            "600"
+          ]
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "Detected width 4419.6 mm is not near the common 89/183 mm defaults; verify the target journal",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-SAMPLING",
+          "level": "PASS",
+          "message": "No high-confidence row-sampling operation detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "PASS",
+          "message": "No high-confidence missing-data exclusion detected",
+          "evidence": []
+        },
+        {
+          "check_id": "DEMO-DATA",
+          "level": "PASS",
+          "message": "No obvious simulated-data generator detected",
+          "evidence": []
+        },
+        {
+          "check_id": "LOG-GUARD",
+          "level": "PASS",
+          "message": "No logarithmic transform or axis detected",
+          "evidence": []
+        },
+        {
+          "check_id": "INTERP-MONOTONIC",
+          "level": "PASS",
+          "message": "No NumPy interpolation requiring an increasing x-grid detected",
+          "evidence": []
+        },
+        {
+          "check_id": "UNCERTAINTY-ENCODING",
+          "level": "PASS",
+          "message": "A stochastic aggregate and uncertainty encoding are both present; still verify every comparable panel",
+          "evidence": [
+            "xerr=",
+            ".errorbar("
+          ]
+        },
+        {
+          "check_id": "ROTATION-ANCHOR",
+          "level": "PASS",
+          "message": "No rotated Matplotlib text detected",
+          "evidence": []
+        },
+        {
+          "check_id": "ANNOTATION-WORKAROUND",
+          "level": "PASS",
+          "message": "No high-risk hard-coded label height or opaque white text mask detected",
+          "evidence": []
+        },
+        {
+          "check_id": "PANEL-ALIGNMENT-GATE",
+          "level": "PASS",
+          "message": "Render-time panel-alignment gate is wired into the plotting source",
+          "evidence": [
+            "require_matplotlib_panel_alignment("
+          ]
+        },
+        {
+          "check_id": "BACKEND-EXCLUSIVE",
+          "level": "PASS",
+          "message": "No obvious cross-backend plotting reference found for python",
+          "evidence": []
+        }
+      ]
+    }
+  ]
+}

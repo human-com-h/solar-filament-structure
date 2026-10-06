@@ -1,0 +1,39 @@
+{
+  "frozen_source_archive": {
+    "path": "project/region_clDice_analysis_20261004/scientific-review-source.zip",
+    "sha256": "4aee0f1819080025256a40a05bffce874d5525a77ff230670a6baaf6f206dd35",
+    "matches_frozen_record": true,
+    "nested_original21_sha256": "0fca0a05b7e025fc3c1c14bd9fcd593d9681f43667b867416db8ebae818fcd4c"
+  },
+  "historical_v3_archive": {
+    "path": "project/submission_final_20261005/study_SUBMISSION_PACKAGE_20261005_v3.zip",
+    "sha256": "cba87dbd8e4aeaa5e478fe2299b927d1a4f97ba76dfeca0d2588ea2dbbf3f0b2",
+    "members": [
+      {
+        "member": "VERSION_INDEX.json",
+        "sha256": "5483129791c21328b96ba40030411c7bc68be9b81d673b84b47e6949330b7e68",
+        "baseline_snapshot_equal": true
+      },
+      {
+        "member": "00_manuscript/filament_structure_revised.md",
+        "sha256": "e37328d61ba565a9ff214c8765608d9a28f1bc9bfb81396862e9e172f49ee138",
+        "baseline_snapshot_equal": true
+      },
+      {
+        "member": "00_manuscript/SUPPLEMENTARY_MATERIAL.md",
+        "sha256": "44ff3116a3427e5de936bc9b96d6811e3d09a94e1627f94a783a8d21061e7b13",
+        "baseline_snapshot_equal": true
+      },
+      {
+        "member": "MODEL_EVIDENCE_INDEX_24.csv",
+        "sha256": "fe50603778f75862b326b292b9558bbb90ffe8edff0f652a3f21fee834e1550d",
+        "baseline_snapshot_equal": true
+      }
+    ]
+  },
+  "current_manuscript_binding": "MANUSCRIPT_BINDING.json",
+  "current_manuscript_hashes_still_match": true,
+  "all_frozen_release_source_identities_verified": true,
+  "mutable_root_updated_outside_this_preparation": true,
+  "preparation_wrote_no_original_manuscript_or_experiment_file": true
+}

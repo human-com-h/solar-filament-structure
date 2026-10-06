@@ -1,0 +1,159 @@
+solar-filament-structure/
+├── analysis/
+│   └── README.md
+├── configs/
+│   └── paper24/
+│       ├── models.json
+│       ├── paths.example.json
+│       ├── protocol.json
+│       └── reproduction.json
+├── data/
+│   └── README.md
+├── docs/
+│   ├── ADAPTATIONS.md
+│   ├── CITATION.md
+│   ├── CODE_AVAILABILITY.md
+│   ├── COMMANDS.md
+│   ├── INPUTS.md
+│   ├── INSTALLATION.md
+│   ├── MODULES.md
+│   ├── OUTPUTS.md
+│   ├── REPRODUCTION.md
+│   ├── SCIENTIFIC_PROTOCOL.md
+│   ├── TRAINING.md
+│   └── VALIDATION.md
+├── examples/
+│   └── synthetic_axis.py
+├── frozen_sources/
+│   ├── analysis/
+│   │   ├── audit_and_analyze.py
+│   │   ├── evaluate_mechanism_branches.py
+│   │   ├── region_postprocess.py
+│   │   └── summarize_mechanism_test.py
+│   ├── application/
+│   │   ├── application_statistics.py
+│   │   ├── frozen_bootstrap.py
+│   │   ├── mask_acceptance.py
+│   │   └── run_application.py
+│   ├── axis/
+│   │   ├── axis_evaluator.py
+│   │   └── prepare_reference.py
+│   ├── baselines/
+│   │   ├── CODE_LOCK.json
+│   │   ├── data.py
+│   │   ├── engine.py
+│   │   ├── engineering_tests.py
+│   │   ├── FROZEN_DESIGN.json
+│   │   ├── INITIAL_DIGESTS.json
+│   │   ├── kaggle_entry.py
+│   │   ├── methods.py
+│   │   ├── release.py
+│   │   ├── runtime.py
+│   │   ├── smoke.py
+│   │   ├── SOURCE_PROVENANCE.json
+│   │   └── target_preflight.py
+│   ├── diagnostics/
+│   │   ├── ANALYSIS_CODE_LOCK.json
+│   │   ├── ANALYSIS_FREEZE.json
+│   │   ├── analyze_calibration.py
+│   │   └── portable_adapter.py
+│   ├── figures/
+│   │   ├── build_application_figures.py
+│   │   ├── build_morphology_figure.py
+│   │   ├── build_segmentation_figures.py
+│   │   ├── display_labels.py
+│   │   └── plot_control.py
+│   ├── mechanism/
+│   │   ├── annotation_helpers.py
+│   │   ├── branch_reference.py
+│   │   ├── data_pipeline.py
+│   │   ├── frozen_evaluator.py
+│   │   ├── historical_losses.py
+│   │   ├── objectives.py
+│   │   ├── run_suite.py
+│   │   ├── threshold_curve.py
+│   │   ├── trainer.py
+│   │   ├── unet.py
+│   │   └── validation_export.py
+│   ├── region_training/
+│   │   ├── bootstrap_runtime.py
+│   │   ├── CODE_LOCK.json
+│   │   ├── cpu_ddp_smoke.py
+│   │   ├── data.py
+│   │   ├── ddp_engine.py
+│   │   ├── ddp_parity.py
+│   │   ├── ddp_smoke.py
+│   │   ├── distributed_math.py
+│   │   ├── engine.py
+│   │   ├── FROZEN_DESIGN.json
+│   │   ├── INITIAL_DIGESTS.json
+│   │   ├── kaggle_entry.py
+│   │   ├── local_smoke.py
+│   │   ├── lock_validation.py
+│   │   ├── methods.py
+│   │   ├── runtime.py
+│   │   ├── RUNTIME_SPEC.json
+│   │   ├── scheduler_smoke.py
+│   │   ├── smoke.py
+│   │   └── target_preflight.py
+│   ├── replay/
+│   │   ├── replay21.py
+│   │   └── replay24.py
+│   ├── s11/
+│   │   ├── compute_target_quality.py
+│   │   └── consolidate_evidence.py
+│   └── vendor/
+│       ├── cldice/
+│       │   ├── cldice.py
+│       │   ├── LICENSE
+│       │   └── soft_skeleton.py
+│       └── flat/
+│           ├── fs_model.py
+│           └── LICENSE
+├── provenance/
+│   ├── ARCHIVE_INTEGRITY.json
+│   ├── DOCUMENTATION_QA.json
+│   ├── EXTERNAL_INPUTS.csv
+│   ├── EXTERNAL_TOOL_IDENTITIES.json
+│   ├── FIGURE_VALIDATION.json
+│   ├── FROZEN_SOURCE_IDENTITIES.json
+│   ├── LOCAL_VALIDATION.json
+│   ├── MANUSCRIPT_BINDING.json
+│   ├── MODEL_EVIDENCE_INDEX_24.csv
+│   ├── NORMALIZATION_VALIDATION.json
+│   ├── PUBLIC_DOWNLOAD_LINKS.json
+│   ├── RELEASE_FILES_SHA256.csv
+│   ├── S11_TABLE_FILE_INDEX.csv
+│   ├── SOURCE_LICENSE_METADATA.json
+│   ├── SOURCE_MAPPING.csv
+│   ├── UPLOAD_CONTENT_AUDIT.json
+│   └── WEIGHT_PACKAGE_VALIDATION.json
+├── scripts/
+│   └── filament.py
+├── src/
+│   └── filament_structure/
+│       ├── __init__.py
+│       ├── analysis.py
+│       ├── cli.py
+│       ├── data.py
+│       ├── evaluation.py
+│       ├── frozen.py
+│       ├── inference.py
+│       ├── io.py
+│       ├── models.py
+│       ├── plotting.py
+│       ├── training.py
+│       └── validation.py
+├── tests/
+│   └── test_scientific_contract.py
+├── weights/
+│   └── README.md
+├── .gitignore
+├── CITATION.cff
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── requirements-cpu.txt
+├── requirements-gpu.txt
+├── THIRD_PARTY_NOTICES.md
+└── TREE.txt

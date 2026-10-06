@@ -1,0 +1,28 @@
+{
+  "status": "NEW_EXPLORATORY_PROTOCOL_FROZEN_BEFORE_NEW_SCORES",
+  "frozen_at_utc": "2026-10-02T15:06:38.594034+00:00",
+  "frozen_at_asia_shanghai": "2026-10-02T23:06:38.594034+08:00",
+  "prior_results_already_seen": true,
+  "input_sha256": {
+    "project/resolution_20261002/application_calibration/PROTOCOL_CN.md": "7bb086b4c54804e3595afbfede45ffd231462e0ae05c5f870679906c12ecc44f",
+    "data/train/MAGFiLO_1.0_Annotations_kaggle2026_train.json": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+    "project/mechanism_training/temporal_manifest.csv": "eb7603b38ef22ffc87b81dfb88afba3833dfb0930290f9d600d70c5be8439129",
+    "project/mechanism_training/manual_spine_qc_exclusions.csv": "9cdcb0d6f5dcf6e2f858587e6fe51c75926507226d95f2002d236f150fcb51e5",
+    "project/mechanism_training/frozen_evaluator.py": "5afa46ee214713311d59f1c50d5d71da772886bbd8bc428c6ab2f913888d6659",
+    "project/manuscript_revision_20261002/morphology_application/LOCKED_APPLICATION.json": "0ec9efa17e2743a7636e553e2d12745b065a4f4204d1e411db449c5175ee48a1",
+    "project/manuscript_revision_20261002/morphology_application/axis_evaluator.py": "c362d6dd7b7801493a805d846e20a04dd41a351896deee2e007f10f2dc4e442d",
+    "project/manuscript_revision_20261002/morphology_application/REFERENCE_AXES.json": "42f0bcfb579080b93dc397fe6178976959a3ad824997c8aed4cdf5c7af3ae96f",
+    "project/manuscript_revision_20261002/morphology_application/reference_manifest.csv": "d145dcdf73a6986e7f91fcc0868fb3f85e96f7f03ec9a613b938b432ac25e051",
+    "project/morphology_application_results_20261002/per_copy.csv": "26fac8b1a758a409559e2ccd1e2b011dd4827a3b676946ad417fc50d545707ad",
+    "project/morphology_application_results_20261002/per_observation.csv": "5b5e86253915120cab5c53179375a1748c110fb0b7efd050a5f880a3c6be6e11",
+    "project/morphology_application_results_20261002/per_reference.csv": "6a7136f5c0eb9b8e88f8d7116fc529030b18354817c8d77a4806257441b4ff02",
+    "project/morphology_application_results_20261002/per_seed.csv": "823418a195d24a6585fa219a68a35f3de25c54b4f00dfaa4324832b5100e335d",
+    "project/morphology_application_results_20261002/OUTPUT_SHA256.json": "cfe9a1bd6fef53f0441d2d91b2eb139eb301ffb27f0293e34f1166213026d8fe",
+    "output/Kaggle_SABR_native_masks_output/mask_export/MASK_MANIFESTS.json": "eadaac4a1efffd603739960da080894b2867d5fd9644532ae4a8e2cbe66771bb"
+  },
+  "no_change_to_existing_primary_endpoint": true,
+  "planned_reference_mask_copies": 170,
+  "planned_copy_pairs": 84,
+  "planned_prediction_run_observations": 972,
+  "inferential_testing": false
+}

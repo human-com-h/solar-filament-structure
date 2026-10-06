@@ -1,0 +1,127 @@
+{
+  "created_utc": "2026-09-17T15:21:34.410104+00:00",
+  "study_status": "Retrospective temporal-group robustness and mechanism study on previously available data; not untouched independent confirmation.",
+  "group_rule": "Transitive consecutive-date components at gap <=14 calendar days; all stations and annotation copies grouped.",
+  "allocation_rule": "Descending group size, SHA256 tie-break seed 20260917; assign minimum incremental sum((count-target)^2/target), targets 70/15/15 percent. No model performance used.",
+  "metadata_refinement": "Before training: deterministic steepest single-group move or pair-swap descent, at most 100 iterations; objective 5*sum((split_count-target)^2/target) + 0.25*sum((year_split_count-year_target)^2/(year_target+1)). Preserve v1 candidate as superseded metadata-only design.",
+  "counts": {
+    "train": 492,
+    "internal_test": 108,
+    "validation": 107
+  },
+  "annotation_copies": {
+    "train": 812,
+    "internal_test": 170,
+    "validation": 172
+  },
+  "temporal_groups": {
+    "train": 34,
+    "validation": 9,
+    "internal_test": 13
+  },
+  "minimum_pairwise_calendar_day_distance": {
+    "train__validation": 16,
+    "train__internal_test": 15,
+    "validation__internal_test": 15
+  },
+  "manifest_sha256": "eb7603b38ef22ffc87b81dfb88afba3833dfb0930290f9d600d70c5be8439129",
+  "annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+  "methods": [
+    "BCE_Dice",
+    "SRL",
+    "SABR",
+    "ResidualPixel",
+    "SRL_FG"
+  ],
+  "seeds": [
+    20260831,
+    20260901,
+    20260902
+  ],
+  "resolution": 1024,
+  "base_channels": 32,
+  "batch_size": 2,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "max_epochs": 150,
+  "patience": 20,
+  "min_delta": 1e-06,
+  "lambda": 0.05,
+  "alpha": 0.25,
+  "augmentation": "none",
+  "precision": "float32; no AMP",
+  "checkpoint_selection": "validation observation-macro Dice at threshold 0.5 on 1024 grid",
+  "structural_control": "ResidualPixel and SRL_FG use the identical SABR branch-valid & SRL-valid eligibility and fallback; SRL_FG replaces only the 0.25 residual term with whole-foreground recall.",
+  "training_initialization": "Fresh per seed, identical initial model and sampling sequence for all methods; no old checkpoints.",
+  "test_policy": "No internal-test images, target caches or model metrics produced by this training-stage package. All thresholds selected using validation outputs only.",
+  "source_provenance": {
+    "unet.py": {
+      "source": "code/SABR-MAGFiLO/src/unet.py",
+      "sha256": "6e6702d7ed3cac6f442b8240661287288821412a455d3831d2eafc2731c5860b"
+    },
+    "historical_losses.py": {
+      "source": "code/SABR-MAGFiLO/src/losses_branch.py",
+      "sha256": "1ecb599afde7f7f14e2c7e5c4627b9ee72c8294f64eab8eab1f8ce4b444f0945"
+    },
+    "annotation_helpers.py": {
+      "source": "code/SABR-MAGFiLO/src/magfilo_data.py",
+      "sha256": "2ce99834cdc473790c65c03df1070e03bb83d8d34c5465559fc025ccd3b50ae2"
+    },
+    "branch_reference.py": {
+      "source": "code/SABR-MAGFiLO/analysis/branch_reference.py",
+      "sha256": "e40458ceaa0def27fc8f3c253e69498f2cdb05937afad960047234b6f900215a"
+    },
+    "frozen_evaluator.py": {
+      "source": "code/SABR-MAGFiLO/src/frozen_evaluator.py",
+      "sha256": "5afa46ee214713311d59f1c50d5d71da772886bbd8bc428c6ab2f913888d6659"
+    },
+    "threshold_curve.py": {
+      "source": "project/threshold_pilot/threshold_pilot.py",
+      "sha256": "9f7e3c477e3fba2f9754526cc19ebd65d15e8bc285731bd131ea6eaa71ced97d"
+    },
+    "manual_spine_qc_exclusions.csv": {
+      "source": "code/SABR-MAGFiLO/protocol/manual_spine_qc_exclusions.csv",
+      "sha256": "9cdcb0d6f5dcf6e2f858587e6fe51c75926507226d95f2002d236f150fcb51e5"
+    }
+  },
+  "year_counts": {
+    "train": {
+      "2011": 63,
+      "2012": 49,
+      "2013": 96,
+      "2014": 45,
+      "2015": 67,
+      "2016": 50,
+      "2017": 55,
+      "2018": 20,
+      "2019": 11,
+      "2020": 7,
+      "2021": 20,
+      "2022": 9
+    },
+    "validation": {
+      "2011": 11,
+      "2012": 43,
+      "2013": 5,
+      "2016": 25,
+      "2017": 9,
+      "2018": 4,
+      "2019": 2,
+      "2020": 1,
+      "2021": 5,
+      "2022": 2
+    },
+    "internal_test": {
+      "2011": 12,
+      "2014": 57,
+      "2015": 19,
+      "2016": 5,
+      "2017": 7,
+      "2018": 2,
+      "2019": 1,
+      "2020": 1,
+      "2021": 3,
+      "2022": 1
+    }
+  }
+}

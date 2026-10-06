@@ -1,0 +1,1074 @@
+{
+  "status": "PASS_UPLOAD_CONTENT_SCREEN",
+  "scope": "complete repository source files; root Git metadata excluded",
+  "root_git_metadata_present": true,
+  "root_git_metadata_modified": false,
+  "files": 132,
+  "forbidden_files": [],
+  "credential_findings": [],
+  "raw_images_annotations_masks_weights_environments_archives_present": false,
+  "no_unconfirmed_permission_assets_copied": true,
+  "project_wide_open_license_added": true,
+  "project_code_license": "MIT",
+  "license_scope": "authors code and documentation; original third-party licenses retained; external artifacts governed separately",
+  "external_inputs": "docs/INPUTS.md",
+  "self_and_checksum_sizes": "Omitted here to avoid recursive metadata; final checksum manifest covers this audit, excluding its own hash.",
+  "inventory": [
+    {
+      "path": ".gitignore",
+      "type": "plain_text",
+      "bytes": 111,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/.gitignore",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "analysis/README.md",
+      "type": ".md",
+      "bytes": 1049,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/analysis/README.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "CITATION.cff",
+      "type": ".cff",
+      "bytes": 866,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/CITATION.cff",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "configs/paper24/models.json",
+      "type": ".json",
+      "bytes": 15502,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/configs/paper24/models.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "configs/paper24/paths.example.json",
+      "type": ".json",
+      "bytes": 209,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/configs/paper24/paths.example.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "configs/paper24/protocol.json",
+      "type": ".json",
+      "bytes": 4509,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/protocol.json",
+      "use": "fixed_training_design",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "configs/paper24/reproduction.json",
+      "type": ".json",
+      "bytes": 2721,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/configs/paper24/reproduction.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "data/README.md",
+      "type": ".md",
+      "bytes": 1038,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/data/README.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/ADAPTATIONS.md",
+      "type": ".md",
+      "bytes": 5433,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/ADAPTATIONS.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/CITATION.md",
+      "type": ".md",
+      "bytes": 1604,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/CITATION.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/CODE_AVAILABILITY.md",
+      "type": ".md",
+      "bytes": 1583,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/CODE_AVAILABILITY.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/COMMANDS.md",
+      "type": ".md",
+      "bytes": 7507,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/COMMANDS.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/INPUTS.md",
+      "type": ".md",
+      "bytes": 8149,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/INPUTS.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "type": ".md",
+      "bytes": 2211,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/INSTALLATION.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/MODULES.md",
+      "type": ".md",
+      "bytes": 2471,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/MODULES.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/OUTPUTS.md",
+      "type": ".md",
+      "bytes": 3651,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/OUTPUTS.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "type": ".md",
+      "bytes": 3133,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/REPRODUCTION.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/SCIENTIFIC_PROTOCOL.md",
+      "type": ".md",
+      "bytes": 6948,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/SCIENTIFIC_PROTOCOL.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/TRAINING.md",
+      "type": ".md",
+      "bytes": 6339,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/TRAINING.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "type": ".md",
+      "bytes": 8918,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/VALIDATION.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "examples/synthetic_axis.py",
+      "type": ".py",
+      "bytes": 732,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/examples/synthetic_axis.py",
+      "use": "synthetic_scientific_checks",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "frozen_sources/analysis/audit_and_analyze.py",
+      "type": ".py",
+      "bytes": 27313,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_final_analysis_20261001/audit_and_analyze.py",
+      "use": "original21_segmentation_statistics",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/analysis/evaluate_mechanism_branches.py",
+      "type": ".py",
+      "bytes": 4538,
+      "source": "canonical_source/project/scripts/evaluate_mechanism_branches.py",
+      "use": "training_grid_component_diagnostic",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/analysis/region_postprocess.py",
+      "type": ".py",
+      "bytes": 18690,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/postprocess_results.py",
+      "use": "region_bootstrap_common_success",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/analysis/summarize_mechanism_test.py",
+      "type": ".py",
+      "bytes": 5219,
+      "source": "canonical_source/project/scripts/summarize_mechanism_test.py",
+      "use": "original15_statistics",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/application/application_statistics.py",
+      "type": ".py",
+      "bytes": 10974,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/morphology_application_execution_20261001/application_statistics.py",
+      "use": "hierarchical_application_statistics",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/application/frozen_bootstrap.py",
+      "type": ".py",
+      "bytes": 424,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/morphology_application_execution_20261001/frozen_bootstrap.py",
+      "use": "hierarchical_application_statistics",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/application/mask_acceptance.py",
+      "type": ".py",
+      "bytes": 6824,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/morphology_application_execution_20261001/mask_acceptance.py",
+      "use": "hierarchical_application_statistics",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/application/run_application.py",
+      "type": ".py",
+      "bytes": 8691,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/morphology_application_execution_20261001/run_application.py",
+      "use": "hierarchical_application_statistics",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/axis/axis_evaluator.py",
+      "type": ".py",
+      "bytes": 9996,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/manuscript_revision_20261001/morphology_application/axis_evaluator.py",
+      "use": "axis_extraction_matching",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/axis/prepare_reference.py",
+      "type": ".py",
+      "bytes": 5660,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/manuscript_revision_20261001/morphology_application/prepare_reference.py",
+      "use": "reference_audit",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/CODE_LOCK.json",
+      "type": ".json",
+      "bytes": 7542,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/CODE_LOCK.json",
+      "use": "baseline_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/data.py",
+      "type": ".py",
+      "bytes": 3158,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/data.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/engine.py",
+      "type": ".py",
+      "bytes": 11412,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/engine.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/engineering_tests.py",
+      "type": ".py",
+      "bytes": 2461,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/engineering_tests.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/FROZEN_DESIGN.json",
+      "type": ".json",
+      "bytes": 8729,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/FROZEN_DESIGN.json",
+      "use": "baseline_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/INITIAL_DIGESTS.json",
+      "type": ".json",
+      "bytes": 252,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/INITIAL_DIGESTS.json",
+      "use": "baseline_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/kaggle_entry.py",
+      "type": ".py",
+      "bytes": 8207,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/kaggle_entry.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/methods.py",
+      "type": ".py",
+      "bytes": 1628,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/methods.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/release.py",
+      "type": ".py",
+      "bytes": 2007,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/release.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/runtime.py",
+      "type": ".py",
+      "bytes": 7065,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/runtime.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/smoke.py",
+      "type": ".py",
+      "bytes": 10301,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/smoke.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/SOURCE_PROVENANCE.json",
+      "type": ".json",
+      "bytes": 6778,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/SOURCE_PROVENANCE.json",
+      "use": "baseline_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/baselines/target_preflight.py",
+      "type": ".py",
+      "bytes": 2816,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/target_preflight.py",
+      "use": "flat_softcldice_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/diagnostics/ANALYSIS_CODE_LOCK.json",
+      "type": ".json",
+      "bytes": 360,
+      "source": "canonical_source/project/resolution_20261002/application_calibration/ANALYSIS_CODE_LOCK.json",
+      "use": "diagnostic_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/diagnostics/ANALYSIS_FREEZE.json",
+      "type": ".json",
+      "bytes": 2594,
+      "source": "canonical_source/project/resolution_20261002/application_calibration/ANALYSIS_FREEZE.json",
+      "use": "diagnostic_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/diagnostics/analyze_calibration.py",
+      "type": ".py",
+      "bytes": 22286,
+      "source": "canonical_source/project/resolution_20261002/application_calibration/analyze_calibration.py",
+      "use": "reference_masks_copy_pairs_yield_lengths_cases",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/diagnostics/portable_adapter.py",
+      "type": ".py",
+      "bytes": 3618,
+      "source": "canonical_source/project/resolution_20261002/application_calibration/portable_adapter.py",
+      "use": "diagnostic_path_adapter",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/figures/build_application_figures.py",
+      "type": ".py",
+      "bytes": 14589,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/morphology_application_execution_20261002/build_application_figures.py",
+      "use": "paper_figures_application",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/figures/build_morphology_figure.py",
+      "type": ".py",
+      "bytes": 8913,
+      "source": "canonical_source/project/resolution_20261002/manuscript/build_morphology_figure.py",
+      "use": "case_selection_and_crops",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/figures/build_segmentation_figures.py",
+      "type": ".py",
+      "bytes": 18313,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/manuscript_revision_20261002/build_figures_20261001_FROZEN.py",
+      "use": "paper_figures_segmentation",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/figures/display_labels.py",
+      "type": ".py",
+      "bytes": 9532,
+      "source": "canonical_source/project/submission_final_20261005/revise_figure_labels_v5.py",
+      "use": "current_manuscript_display_only",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/figures/plot_control.py",
+      "type": ".py",
+      "bytes": 3935,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_analysis_20261004/plot_control.py",
+      "use": "paper_figure7",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/annotation_helpers.py",
+      "type": ".py",
+      "bytes": 6100,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/annotation_helpers.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/branch_reference.py",
+      "type": ".py",
+      "bytes": 3461,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/branch_reference.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/data_pipeline.py",
+      "type": ".py",
+      "bytes": 5910,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/data_pipeline.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/frozen_evaluator.py",
+      "type": ".py",
+      "bytes": 17582,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/frozen_evaluator.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/historical_losses.py",
+      "type": ".py",
+      "bytes": 3842,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/historical_losses.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/objectives.py",
+      "type": ".py",
+      "bytes": 1036,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/objectives.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/run_suite.py",
+      "type": ".py",
+      "bytes": 4583,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/run_suite.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/threshold_curve.py",
+      "type": ".py",
+      "bytes": 9060,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/threshold_curve.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/trainer.py",
+      "type": ".py",
+      "bytes": 8116,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/trainer.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/unet.py",
+      "type": ".py",
+      "bytes": 1708,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/unet.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/mechanism/validation_export.py",
+      "type": ".py",
+      "bytes": 2848,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/mechanism_training/validation_export.py",
+      "use": "data_targets_training_losses",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/bootstrap_runtime.py",
+      "type": ".py",
+      "bytes": 8849,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/bootstrap_runtime.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/CODE_LOCK.json",
+      "type": ".json",
+      "bytes": 3782,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/CODE_LOCK.json",
+      "use": "region_training_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/cpu_ddp_smoke.py",
+      "type": ".py",
+      "bytes": 5033,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/cpu_ddp_smoke.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/data.py",
+      "type": ".py",
+      "bytes": 3158,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/data.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/ddp_engine.py",
+      "type": ".py",
+      "bytes": 12687,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/ddp_engine.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/ddp_parity.py",
+      "type": ".py",
+      "bytes": 5052,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/ddp_parity.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/ddp_smoke.py",
+      "type": ".py",
+      "bytes": 3534,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/ddp_smoke.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/distributed_math.py",
+      "type": ".py",
+      "bytes": 2517,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/distributed_math.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/engine.py",
+      "type": ".py",
+      "bytes": 11718,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/engine.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/FROZEN_DESIGN.json",
+      "type": ".json",
+      "bytes": 3756,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/FROZEN_DESIGN.json",
+      "use": "region_training_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/INITIAL_DIGESTS.json",
+      "type": ".json",
+      "bytes": 252,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/INITIAL_DIGESTS.json",
+      "use": "region_training_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/kaggle_entry.py",
+      "type": ".py",
+      "bytes": 15672,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/kaggle_entry.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/local_smoke.py",
+      "type": ".py",
+      "bytes": 10991,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/local_smoke.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/lock_validation.py",
+      "type": ".py",
+      "bytes": 3060,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/lock_validation.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/methods.py",
+      "type": ".py",
+      "bytes": 1402,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/methods.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/runtime.py",
+      "type": ".py",
+      "bytes": 8637,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/runtime.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/RUNTIME_SPEC.json",
+      "type": ".json",
+      "bytes": 1329,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/RUNTIME_SPEC.json",
+      "use": "region_training_identity",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/scheduler_smoke.py",
+      "type": ".py",
+      "bytes": 4131,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/scheduler_smoke.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/smoke.py",
+      "type": ".py",
+      "bytes": 5803,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/smoke.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/region_training/target_preflight.py",
+      "type": ".py",
+      "bytes": 2936,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_path_fix_20261004/evaluation_package/training_code/target_preflight.py",
+      "use": "region_cldice_ddp_training",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/replay/replay21.py",
+      "type": ".py",
+      "bytes": 8813,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/replay_standard_library.py",
+      "use": "original21_descriptive_replay",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/replay/replay24.py",
+      "type": ".py",
+      "bytes": 5270,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/region/workspace/project/region_clDice_analysis_20261004/replay_summary.py",
+      "use": "paper24_descriptive_replay",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/s11/compute_target_quality.py",
+      "type": ".py",
+      "bytes": 13825,
+      "source": "canonical_source/project/submission_final_20261005/review_package/03_source_data/target_census_code/compute_target_quality.py",
+      "use": "target_census_and_denominators",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/s11/consolidate_evidence.py",
+      "type": ".py",
+      "bytes": 12394,
+      "source": "canonical_source/project/submission_final_20261005/review_package/03_source_data/target_census_code/consolidate_evidence.py",
+      "use": "target_census_and_denominators",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/vendor/cldice/cldice.py",
+      "type": ".py",
+      "bytes": 2403,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/vendor/cldice/cldice.py",
+      "use": "third_party_cldice",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/vendor/cldice/LICENSE",
+      "type": "plain_text",
+      "bytes": 1097,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/vendor/cldice/LICENSE",
+      "use": "third_party_cldice",
+      "scope": "upstream_MIT"
+    },
+    {
+      "path": "frozen_sources/vendor/cldice/soft_skeleton.py",
+      "type": ".py",
+      "bytes": 1393,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/vendor/cldice/soft_skeleton.py",
+      "use": "third_party_cldice",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/vendor/flat/fs_model.py",
+      "type": ".py",
+      "bytes": 6175,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/vendor/flat/fs_model.py",
+      "use": "third_party_flat",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "frozen_sources/vendor/flat/LICENSE",
+      "type": "plain_text",
+      "bytes": 1068,
+      "source": "canonical_source/project/submission_final_20261005/review_package/02_evidence/original21/payload/project/strong_baseline_six_execution/vendor/flat/LICENSE",
+      "use": "third_party_flat",
+      "scope": "upstream_MIT"
+    },
+    {
+      "path": "LICENSE",
+      "type": "plain_text",
+      "bytes": 1077,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/LICENSE",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/ARCHIVE_INTEGRITY.json",
+      "type": ".json",
+      "bytes": 1684,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/ARCHIVE_INTEGRITY.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/DOCUMENTATION_QA.json",
+      "type": ".json",
+      "bytes": 639,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/DOCUMENTATION_QA.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/EXTERNAL_INPUTS.csv",
+      "type": ".csv",
+      "bytes": 29620,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/EXTERNAL_INPUTS.csv",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/EXTERNAL_TOOL_IDENTITIES.json",
+      "type": ".json",
+      "bytes": 910,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/EXTERNAL_TOOL_IDENTITIES.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/FIGURE_VALIDATION.json",
+      "type": ".json",
+      "bytes": 30425,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/FIGURE_VALIDATION.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/FROZEN_SOURCE_IDENTITIES.json",
+      "type": ".json",
+      "bytes": 25905,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/FROZEN_SOURCE_IDENTITIES.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/LOCAL_VALIDATION.json",
+      "type": ".json",
+      "bytes": 37517,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/LOCAL_VALIDATION.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/MANUSCRIPT_BINDING.json",
+      "type": ".json",
+      "bytes": 2559,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/MANUSCRIPT_BINDING.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/MODEL_EVIDENCE_INDEX_24.csv",
+      "type": ".csv",
+      "bytes": 16947,
+      "source": "canonical_source/project/submission_final_20261005/MODEL_EVIDENCE_INDEX_24.csv",
+      "use": "weights_threshold_mapping",
+      "scope": "author_requested_configuration"
+    },
+    {
+      "path": "provenance/NORMALIZATION_VALIDATION.json",
+      "type": ".json",
+      "bytes": 65314,
+      "source": "LOCAL_IMPLEMENTATION/provenance/NORMALIZATION_VALIDATION.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/PUBLIC_DOWNLOAD_LINKS.json",
+      "type": ".json",
+      "bytes": 2138,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/PUBLIC_DOWNLOAD_LINKS.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/RELEASE_FILES_SHA256.csv",
+      "type": ".csv",
+      "bytes": null,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/RELEASE_FILES_SHA256.csv",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/S11_TABLE_FILE_INDEX.csv",
+      "type": ".csv",
+      "bytes": 2755,
+      "source": "canonical_source/project/submission_final_20261005/S11_TABLE_FILE_INDEX.csv",
+      "use": "supplement_source_mapping",
+      "scope": "author_requested_configuration"
+    },
+    {
+      "path": "provenance/SOURCE_LICENSE_METADATA.json",
+      "type": ".json",
+      "bytes": 929,
+      "source": "canonical_source/project/submission_final_20261005/SOURCE_LICENSE_METADATA.json",
+      "use": "input_redistribution_metadata",
+      "scope": "author_requested_code"
+    },
+    {
+      "path": "provenance/SOURCE_MAPPING.csv",
+      "type": ".csv",
+      "bytes": 40565,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/SOURCE_MAPPING.csv",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/UPLOAD_CONTENT_AUDIT.json",
+      "type": ".json",
+      "bytes": null,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/UPLOAD_CONTENT_AUDIT.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "provenance/WEIGHT_PACKAGE_VALIDATION.json",
+      "type": ".json",
+      "bytes": 9164,
+      "source": "LOCAL_IMPLEMENTATION/provenance/WEIGHT_PACKAGE_VALIDATION.json",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "pyproject.toml",
+      "type": ".toml",
+      "bytes": 724,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/pyproject.toml",
+      "use": "release_configuration_and_provenance",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "README.md",
+      "type": ".md",
+      "bytes": 9859,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/README.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "requirements-cpu.txt",
+      "type": ".txt",
+      "bytes": 384,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/requirements-cpu.txt",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "requirements-gpu.txt",
+      "type": ".txt",
+      "bytes": 399,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/requirements-gpu.txt",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "scripts/filament.py",
+      "type": ".py",
+      "bytes": 293,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/scripts/filament.py",
+      "use": "portable_study",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/__init__.py",
+      "type": ".py",
+      "bytes": 86,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/__init__.py",
+      "use": "portable___init__",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/analysis.py",
+      "type": ".py",
+      "bytes": 17078,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/analysis.py",
+      "use": "portable_analysis",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/cli.py",
+      "type": ".py",
+      "bytes": 6097,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/cli.py",
+      "use": "portable_cli",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/data.py",
+      "type": ".py",
+      "bytes": 3482,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/data.py",
+      "use": "portable_data",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/evaluation.py",
+      "type": ".py",
+      "bytes": 9215,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/evaluation.py",
+      "use": "portable_evaluation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/frozen.py",
+      "type": ".py",
+      "bytes": 3544,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/frozen.py",
+      "use": "portable_frozen",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/inference.py",
+      "type": ".py",
+      "bytes": 6253,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/inference.py",
+      "use": "portable_inference",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/io.py",
+      "type": ".py",
+      "bytes": 4633,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/io.py",
+      "use": "portable_io",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/models.py",
+      "type": ".py",
+      "bytes": 2139,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/models.py",
+      "use": "portable_models",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/plotting.py",
+      "type": ".py",
+      "bytes": 8408,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/plotting.py",
+      "use": "portable_plotting",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/training.py",
+      "type": ".py",
+      "bytes": 8761,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/training.py",
+      "use": "portable_training",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "src/filament_structure/validation.py",
+      "type": ".py",
+      "bytes": 9342,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/src/filament_structure/validation.py",
+      "use": "portable_validation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "tests/test_scientific_contract.py",
+      "type": ".py",
+      "bytes": 251,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/tests/test_scientific_contract.py",
+      "use": "synthetic_scientific_checks",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "type": ".md",
+      "bytes": 2957,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/THIRD_PARTY_NOTICES.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "TREE.txt",
+      "type": ".txt",
+      "bytes": 5638,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/TREE.txt",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    },
+    {
+      "path": "weights/README.md",
+      "type": ".md",
+      "bytes": 861,
+      "source": "canonical_source/LOCAL_IMPLEMENTATION/weights/README.md",
+      "use": "reproduction_documentation",
+      "scope": "author_requested_local_preparation"
+    }
+  ]
+}

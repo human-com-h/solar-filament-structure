@@ -1,0 +1,2177 @@
+{
+  "status": "PASS_CURRENT_CANONICAL_SOURCE_TREE",
+  "package": "filament_structure",
+  "entry": "scripts/filament.py",
+  "source_catalog": {
+    "files": 76,
+    "byte_identical_to_original": 50,
+    "original_sha256_retained": true
+  },
+  "scientific_source_AST": {
+    "status": "PASS",
+    "scientific_python_files": 60,
+    "canonical_string_AST_parity": [
+      {
+        "path": "frozen_sources/mechanism/annotation_helpers.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/branch_reference.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/data_pipeline.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/frozen_evaluator.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/historical_losses.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/objectives.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/run_suite.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/threshold_curve.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/trainer.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/unet.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/mechanism/validation_export.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/data.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/engine.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/engineering_tests.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/kaggle_entry.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/methods.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/release.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/runtime.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/smoke.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/baselines/target_preflight.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/vendor/flat/fs_model.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/vendor/cldice/cldice.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/vendor/cldice/soft_skeleton.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/bootstrap_runtime.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/cpu_ddp_smoke.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/data.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/ddp_engine.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/ddp_parity.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/ddp_smoke.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/distributed_math.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/engine.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/kaggle_entry.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/local_smoke.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/lock_validation.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/methods.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/runtime.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/scheduler_smoke.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/smoke.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/region_training/target_preflight.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/axis/axis_evaluator.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/axis/prepare_reference.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/application/application_statistics.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/application/frozen_bootstrap.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/application/mask_acceptance.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/application/run_application.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/replay/replay21.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/replay/replay24.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/s11/compute_target_quality.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/s11/consolidate_evidence.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/analysis/region_postprocess.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/analysis/audit_and_analyze.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/analysis/summarize_mechanism_test.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/analysis/evaluate_mechanism_branches.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/diagnostics/analyze_calibration.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/figures/build_segmentation_figures.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/figures/build_application_figures.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/figures/plot_control.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/figures/build_morphology_figure.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/diagnostics/portable_adapter.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      },
+      {
+        "path": "frozen_sources/figures/display_labels.py",
+        "status": "PASS_CANONICAL_STRING_ONLY_AST_PARITY"
+      }
+    ],
+    "numeric_and_algorithm_AST_changes": 0,
+    "shared_resolver_added_to_standalone_replays": true,
+    "canonical_and_existing_evidence_layouts": true,
+    "ambiguity_rejected": true,
+    "path_traversal_rejected": true,
+    "original_source_archive_sha256": "4aee0f1819080025256a40a05bffce874d5525a77ff230670a6baaf6f206dd35",
+    "original_weight_archive_sha256": "6b3e995b885b082ab97a682f7d24d755d13f9fd7d4ad2d4eaf7afbc36a71c40f",
+    "protected_originals_and_current_manuscript_unchanged": true,
+    "raw_source_snapshot_preserved_outside_repository": true
+  },
+  "replay21": {
+    "status": "PASS_NINE_NON_BOOTSTRAP_TABLES_NUMERIC_AND_NA_PARITY",
+    "kind": "engineering replay of accepted receipts; not independent scientific validation",
+    "python": "3.12.9",
+    "standard_library_only": true,
+    "verified_package_files": 15163,
+    "verified_receipts": 4212,
+    "frozen_aggregation_source_sha256": "89a9c1d287cda9c5862a3ffdbb9364750af8a8399fc492e3e2e943ab968e94bc",
+    "max_absolute_numeric_difference": 3.552713678800501e-15,
+    "tolerance": 5e-14,
+    "bootstrap": {
+      "recomputed": false,
+      "verified_original_sha256": "c9b46bb9300a085fe57a3b0bbf01fcb6e182fcb14a3b6e65b565ca7f660d5965",
+      "reason": "Retain original NumPy RNG and frozen 100000-draw algorithm in the separate full-environment route"
+    },
+    "elapsed_seconds": 104.19232049999937,
+    "tables": [
+      {
+        "file": "comparison_sensitivity.csv",
+        "rows": 828,
+        "fields": 22,
+        "max_absolute_numeric_difference": 5.551115123125783e-17,
+        "differing_numeric_strings": 1308,
+        "frozen_sha256": "f7d47eddc1f7c6d200cd3aaf926e022df7607d863ae06b38f11c3944e6505fe1",
+        "replay_sha256": "9ac49b8641bcd72aa28f299b935c6ffec887dd3367651fb7cea44822578721d1",
+        "byte_equal": false
+      },
+      {
+        "file": "comparison_three_seed_summary.csv",
+        "rows": 12,
+        "fields": 12,
+        "max_absolute_numeric_difference": 1.3877787807814457e-17,
+        "differing_numeric_strings": 36,
+        "frozen_sha256": "89e4f4595af496153d5df9061b470645c9695acb2e7099f0576c65e01d1fb577",
+        "replay_sha256": "3755bd8ce43a0065aa45d23f8737dd68ad523c5b025c9c5449eb0c6945c38886",
+        "byte_equal": false
+      },
+      {
+        "file": "leave_one_group_out.csv",
+        "rows": 546,
+        "fields": 11,
+        "max_absolute_numeric_difference": 2.7755575615628914e-17,
+        "differing_numeric_strings": 214,
+        "frozen_sha256": "c02e8cb75500fceed691833d118570e4e25edb1acc17755b93864781069dfe74",
+        "replay_sha256": "0c9b13d2fd28ee41a9242103b718e89e6161ae3bec3bea3c47b574298b5d8b54",
+        "byte_equal": false
+      },
+      {
+        "file": "per_copy.csv",
+        "rows": 7140,
+        "fields": 21,
+        "max_absolute_numeric_difference": 0.0,
+        "differing_numeric_strings": 0,
+        "frozen_sha256": "26fac8b1a758a409559e2ccd1e2b011dd4827a3b676946ad417fc50d545707ad",
+        "replay_sha256": "26fac8b1a758a409559e2ccd1e2b011dd4827a3b676946ad417fc50d545707ad",
+        "byte_equal": true
+      },
+      {
+        "file": "per_observation.csv",
+        "rows": 4536,
+        "fields": 23,
+        "max_absolute_numeric_difference": 0.0,
+        "differing_numeric_strings": 0,
+        "frozen_sha256": "5b5e86253915120cab5c53179375a1748c110fb0b7efd050a5f880a3c6be6e11",
+        "replay_sha256": "5b5e86253915120cab5c53179375a1748c110fb0b7efd050a5f880a3c6be6e11",
+        "byte_equal": true
+      },
+      {
+        "file": "per_reference.csv",
+        "rows": 57456,
+        "fields": 22,
+        "max_absolute_numeric_difference": 0.0,
+        "differing_numeric_strings": 0,
+        "frozen_sha256": "6a7136f5c0eb9b8e88f8d7116fc529030b18354817c8d77a4806257441b4ff02",
+        "replay_sha256": "6a7136f5c0eb9b8e88f8d7116fc529030b18354817c8d77a4806257441b4ff02",
+        "byte_equal": true
+      },
+      {
+        "file": "per_seed.csv",
+        "rows": 42,
+        "fields": 19,
+        "max_absolute_numeric_difference": 3.552713678800501e-15,
+        "differing_numeric_strings": 61,
+        "frozen_sha256": "823418a195d24a6585fa219a68a35f3de25c54b4f00dfaa4324832b5100e335d",
+        "replay_sha256": "cd45debc72111ffb7a07e9a6139fc45e2df649edf27b006ab7961881702fd48b",
+        "byte_equal": false
+      },
+      {
+        "file": "per_year.csv",
+        "rows": 420,
+        "fields": 11,
+        "max_absolute_numeric_difference": 5.551115123125783e-17,
+        "differing_numeric_strings": 48,
+        "frozen_sha256": "2d90af484924fc0c1ffba0c464b19637d01abdf6d284a84b73cccd4699e3f06f",
+        "replay_sha256": "19cbdb52b047b89d21ef18cc3ea8f6a67234b01dd58440db384f1e190a6bc5cc",
+        "byte_equal": false
+      },
+      {
+        "file": "three_seed_summary.csv",
+        "rows": 14,
+        "fields": 19,
+        "max_absolute_numeric_difference": 3.552713678800501e-15,
+        "differing_numeric_strings": 67,
+        "frozen_sha256": "d2dc0ae36356e268cd18d04b1fcd58d7eef5a755524943b494dd4486b9c5167c",
+        "replay_sha256": "e8bfcfd46897f15eef02736bd9adc4d344811f76257ec6d4be9179e9919b7ecf",
+        "byte_equal": false
+      }
+    ]
+  },
+  "replay24": {
+    "status": "PASS_PORTABLE_STANDARD_LIBRARY_DESCRIPTIVE_REPLAY",
+    "tables": [
+      {
+        "table": "all_eight_methods_segmentation_per_seed",
+        "rows": 144,
+        "maximum_numeric_difference": 5.551115123125783e-16,
+        "numeric_tolerance": 1e-12
+      },
+      {
+        "table": "all_eight_methods_application_per_seed",
+        "rows": 48,
+        "maximum_numeric_difference": 3.552713678800501e-15,
+        "numeric_tolerance": 1e-12
+      },
+      {
+        "table": "all_eight_methods_mean_sd",
+        "rows": 400,
+        "maximum_numeric_difference": 3.552713678800501e-15,
+        "numeric_tolerance": 1e-12
+      }
+    ],
+    "gpu_required": false,
+    "raw_images_required": false,
+    "bootstrap_or_mask_scoring_repeated": false,
+    "scope": "Reconstructs descriptive summaries from the supplied accepted observation scores. Numerical equality is checked at 1e-12, not byte equality; bootstrap draws and scoring retain their separate frozen implementations."
+  },
+  "cpu_models_and_contracts": {
+    "status": "PASS_CPU_ENGINEERING",
+    "synthetic_only": true,
+    "checks": [
+      {
+        "name": "frozen_axis_self_test",
+        "result": {
+          "status": "PASS",
+          "kind": "synthetic engineering tests only; no scientific observations scored",
+          "checks": [
+            "perfect line",
+            "empty prediction counts failure",
+            "fragmented axis not joined",
+            "one-to-one duplicate reference",
+            "short axis signed length error",
+            "mask-only extraction interface"
+          ],
+          "versions": {
+            "python": "3.12.9",
+            "numpy": "2.4.6",
+            "scipy": "1.15.2",
+            "skimage": "0.25.0"
+          }
+        }
+      },
+      {
+        "name": "copy_then_observation_and_failed_lengths",
+        "macro": 0.5,
+        "pooled_reference_fraction": 0.25,
+        "status": "PASS"
+      },
+      {
+        "name": "five_pixel_filter_before_ownership_only",
+        "second_retained_pixels": 3,
+        "status": "PASS"
+      },
+      {
+        "name": "endpoint_path_residuals_and_rejection",
+        "components": 2,
+        "status": "PASS"
+      },
+      {
+        "name": "component_balancing_equivalence",
+        "difference": 3.971816764369862e-09,
+        "status": "PASS"
+      },
+      {
+        "name": "native_segmentation_threshold_curve_parity",
+        "grid_size": 39,
+        "status": "PASS"
+      },
+      {
+        "name": "bidirectional_matching_and_loop_ties",
+        "status": "PASS"
+      },
+      {
+        "name": "component_recall_original_loop_parity",
+        "radii": [
+          0,
+          1,
+          2
+        ],
+        "boundary_pixels_included": true,
+        "status": "PASS"
+      },
+      {
+        "name": "eight_model_forward_loss_gradient",
+        "status": "PASS",
+        "methods": [
+          {
+            "method": "BCE_Dice",
+            "parameters": 7762465,
+            "loss": 0.7093918323516846,
+            "finite_gradients": true
+          },
+          {
+            "method": "SRL",
+            "parameters": 7762465,
+            "loss": 0.7666200995445251,
+            "finite_gradients": true
+          },
+          {
+            "method": "SABR",
+            "parameters": 7762465,
+            "loss": 0.7726548314094543,
+            "finite_gradients": true
+          },
+          {
+            "method": "ResidualPixel",
+            "parameters": 7762465,
+            "loss": 0.7876666784286499,
+            "finite_gradients": true
+          },
+          {
+            "method": "SRL_FG",
+            "parameters": 7762465,
+            "loss": 0.7890588641166687,
+            "finite_gradients": true
+          },
+          {
+            "method": "FlatUNet_BCE",
+            "parameters": 258081,
+            "loss": 0.6836858987808228,
+            "finite_gradients": true
+          },
+          {
+            "method": "UNet_softDice_clDice",
+            "parameters": 7762465,
+            "loss": 0.4535566568374634,
+            "finite_gradients": true
+          },
+          {
+            "method": "UNet_region_clDice",
+            "parameters": 7762465,
+            "loss": 0.763949453830719,
+            "finite_gradients": true
+          }
+        ],
+        "shape": [
+          2,
+          1,
+          64,
+          64
+        ],
+        "gpu_training_performed": false
+      }
+    ],
+    "frozen_files_checked": 76,
+    "environment": {
+      "python": "3.12.9",
+      "numpy": "2.4.6",
+      "scipy": "1.15.2",
+      "skimage": "0.25.0",
+      "opencv": "4.11.0"
+    },
+    "model_checks_executed": true,
+    "ddp_gpu_training_verified": false,
+    "new_paper_observations_scored": false
+  },
+  "weights": {
+    "status": "PASS",
+    "archive": "solar-filament-weights.zip",
+    "archive_sha256": "77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86",
+    "models": [
+      {
+        "run": "BCE_Dice_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SRL_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SABR_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "ResidualPixel_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SRL_FG_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "BCE_Dice_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SRL_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SABR_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "ResidualPixel_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SRL_FG_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "BCE_Dice_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SRL_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SABR_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "ResidualPixel_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "SRL_FG_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "UNet_softDice_clDice_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "FlatUNet_BCE_seed20260831",
+        "parameters": 258081,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "FlatUNet_BCE_seed20260901",
+        "parameters": 258081,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "UNet_softDice_clDice_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "UNet_softDice_clDice_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "FlatUNet_BCE_seed20260902",
+        "parameters": 258081,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "UNet_region_clDice_seed20260831",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "UNet_region_clDice_seed20260901",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      },
+      {
+        "run": "UNet_region_clDice_seed20260902",
+        "parameters": 7762465,
+        "export_hash_checked": true,
+        "tensor_hash_checked": true,
+        "strict_loading": true
+      }
+    ],
+    "model_export_bytes_unchanged": true,
+    "full_dataset_inference_run": false
+  },
+  "interfaces": {
+    "status": "PASS",
+    "commands": 18,
+    "checks": [
+      {
+        "command": "check-data",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "build-targets",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "stage-training",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "prepare-cache",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "train-preflight",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "train",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "infer",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "select-threshold",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "score-segmentation",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "score-axes",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "score-components",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "replay",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "statistics",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "s11",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "diagnostics",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "plot",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "validate",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "verify-release",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--help"
+        ]
+      },
+      {
+        "command": "infer",
+        "exit_code": 2,
+        "expected": 2,
+        "arguments": [
+          "--run",
+          "SABR_seed20260831"
+        ]
+      },
+      {
+        "command": "train",
+        "exit_code": 2,
+        "expected": 2,
+        "arguments": [
+          "--method",
+          "SABR",
+          "--data-root",
+          "E:/SABR/data",
+          "--evidence-root",
+          "E:\\SABR\\project\\submission_final_20261005\\review_package",
+          "--cache",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\absentcache",
+          "--output-root",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\cpu_training_rejection"
+        ]
+      },
+      {
+        "command": "train-preflight",
+        "exit_code": 2,
+        "expected": 2,
+        "arguments": [
+          "--method",
+          "UNet_region_clDice",
+          "--data-root",
+          "E:/SABR/data",
+          "--evidence-root",
+          "E:\\SABR\\project\\submission_final_20261005\\review_package",
+          "--cache",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\absentcache",
+          "--output-root",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\cpu_preflight_rejection"
+        ]
+      },
+      {
+        "command": "check-data",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--config",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\portable_config\\roots.json",
+          "--annotation-only"
+        ]
+      },
+      {
+        "command": "build-targets",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--data-root",
+          "E:/SABR/data",
+          "--evidence-root",
+          "E:\\SABR\\project\\submission_final_20261005\\review_package",
+          "--splits",
+          "internal_test",
+          "--sample-id",
+          "010401-20111009110234Ch",
+          "--output-root",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\target_entry_check"
+        ]
+      },
+      {
+        "command": "infer",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--run",
+          "UNet_softDice_clDice_seed20260831",
+          "--data-root",
+          "E:/SABR/data",
+          "--evidence-root",
+          "E:\\SABR\\project\\submission_final_20261005\\review_package",
+          "--weights-root",
+          "E:/SABR/release_study_work/neutral_verification/weights",
+          "--device",
+          "cpu",
+          "--mode",
+          "validation_selected",
+          "--output-root",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\na_inference"
+        ]
+      },
+      {
+        "command": "score-axes",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--evidence-root",
+          "E:\\SABR\\project\\submission_final_20261005\\review_package",
+          "--mask-manifest",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\na_inference\\MASK_MANIFEST.json",
+          "--output-root",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\na_axes"
+        ]
+      },
+      {
+        "command": "score-segmentation",
+        "exit_code": 0,
+        "expected": 0,
+        "arguments": [
+          "--data-root",
+          "E:/SABR/data",
+          "--evidence-root",
+          "E:\\SABR\\project\\submission_final_20261005\\review_package",
+          "--mask-manifest",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\na_inference\\MASK_MANIFEST.json",
+          "--output-root",
+          "E:\\SABR\\release_study_work\\neutral_verification\\interfaces\\na_segmentation"
+        ]
+      }
+    ],
+    "documentation_commands": [
+      {
+        "file": "README.md",
+        "command": "--help"
+      },
+      {
+        "file": "README.md",
+        "command": "verify-release"
+      },
+      {
+        "file": "README.md",
+        "command": "replay"
+      },
+      {
+        "file": "README.md",
+        "command": "replay"
+      },
+      {
+        "file": "README.md",
+        "command": "validate"
+      },
+      {
+        "file": "README.md",
+        "command": "check-data"
+      },
+      {
+        "file": "README.md",
+        "command": "build-targets"
+      },
+      {
+        "file": "README.md",
+        "command": "infer"
+      },
+      {
+        "file": "README.md",
+        "command": "score-segmentation"
+      },
+      {
+        "file": "README.md",
+        "command": "score-axes"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "build-targets"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "score-components"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "select-threshold"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "statistics"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "statistics"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "statistics"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "statistics"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "statistics"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "s11"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "s11"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "diagnostics"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "diagnostics"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "plot"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "plot"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "plot"
+      },
+      {
+        "file": "docs/COMMANDS.md",
+        "command": "plot"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "stage-training"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "prepare-cache"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "train"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "prepare-cache"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "train-preflight"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "train"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "prepare-cache"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "train-preflight"
+      },
+      {
+        "file": "docs/TRAINING.md",
+        "command": "train"
+      }
+    ],
+    "all_python_parsed": true,
+    "target_label_parity": true,
+    "na_reference_rows": 1368,
+    "na_segmentation_rows": 324,
+    "training_on_cpu_rejected": true,
+    "relative_configuration_checked": true,
+    "working_directory": "E:\\SABR\\release_study_work\\neutral_verification\\interfaces"
+  },
+  "workflow_execution": {
+    "status": "PASS",
+    "checks": [
+      {
+        "name": "segmentation21",
+        "exit_code": 0,
+        "seconds": 15.48
+      },
+      {
+        "name": "original21",
+        "exit_code": 0,
+        "seconds": 18.02
+      },
+      {
+        "name": "mechanism-region",
+        "exit_code": 0,
+        "seconds": 17.19
+      },
+      {
+        "name": "mechanism-components",
+        "exit_code": 0,
+        "seconds": 14.97
+      },
+      {
+        "name": "check-data",
+        "exit_code": 0,
+        "seconds": 2.56
+      },
+      {
+        "name": "region24",
+        "exit_code": 0,
+        "seconds": 76.31
+      },
+      {
+        "name": "rescore_segmentation",
+        "exit_code": 0,
+        "seconds": 42.25
+      },
+      {
+        "name": "plot-segmentation",
+        "exit_code": 0,
+        "seconds": 13.75
+      },
+      {
+        "name": "plot-application",
+        "exit_code": 0,
+        "seconds": 12.84
+      },
+      {
+        "name": "rescore_axes",
+        "exit_code": 0,
+        "seconds": 28.7
+      },
+      {
+        "name": "plot-control",
+        "exit_code": 0,
+        "seconds": 2.38
+      },
+      {
+        "name": "diagnostics-full",
+        "exit_code": 0,
+        "seconds": 338.34
+      },
+      {
+        "name": "s11-census",
+        "exit_code": 0,
+        "seconds": 25.61
+      },
+      {
+        "name": "s11-consolidate",
+        "exit_code": 0,
+        "seconds": 1.59
+      },
+      {
+        "name": "plot-cases",
+        "exit_code": 0,
+        "seconds": 7.28
+      },
+      {
+        "name": "stage_baselines",
+        "exit_code": 0,
+        "seconds": 1.17
+      },
+      {
+        "name": "stage_region",
+        "exit_code": 0,
+        "seconds": 0.72
+      },
+      {
+        "name": "region-local-smoke",
+        "exit_code": 0,
+        "seconds": 19.39
+      },
+      {
+        "name": "pytest",
+        "exit_code": 0,
+        "seconds": 1.56
+      }
+    ],
+    "GPU_training_performed": false,
+    "outputs_outside_repository": true
+  },
+  "scientific_output_parity": {
+    "status": "PASS",
+    "tables": 66,
+    "maximum_absolute_difference": 0,
+    "all_tables_byte_identical": true,
+    "results": [
+      {
+        "path": "statistics_original21",
+        "table": "comparison_sensitivity.csv",
+        "rows": 828,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "comparison_three_seed_summary.csv",
+        "rows": 12,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "leave_one_group_out.csv",
+        "rows": 546,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "paired_bootstrap.csv",
+        "rows": 72,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "per_copy.csv",
+        "rows": 7140,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "per_observation.csv",
+        "rows": 4536,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "per_reference.csv",
+        "rows": 57456,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "per_seed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "per_year.csv",
+        "rows": 420,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_original21",
+        "table": "three_seed_summary.csv",
+        "rows": 14,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "legacy_bootstrap_parity.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_paired_effects.csv",
+        "rows": 252,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_paired_intervals.csv",
+        "rows": 504,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_paired_multiseed.csv",
+        "rows": 84,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_per_observation_observed.csv",
+        "rows": 2916,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "new_sensitivity.csv",
+        "rows": 5796,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "region_multiseed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "region_per_observation.csv",
+        "rows": 13608,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "region_per_seed.csv",
+        "rows": 126,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_segmentation21",
+        "table": "test_observations.csv",
+        "rows": 108,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_region24",
+        "table": "common_success_length_pairs.csv",
+        "rows": 3335,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_region24",
+        "table": "common_success_length_per_seed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_region24",
+        "table": "new_per_seed.csv",
+        "rows": 132,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_region24",
+        "table": "paired_effects.csv",
+        "rows": 924,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_region24",
+        "table": "paired_intervals.csv",
+        "rows": 1848,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_region24",
+        "table": "paired_three_seed_summary.csv",
+        "rows": 308,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_region24",
+        "table": "sensitivity.csv",
+        "rows": 21252,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-region",
+        "table": "region_multiseed.csv",
+        "rows": 30,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-region",
+        "table": "region_paired_intervals.csv",
+        "rows": 240,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-region",
+        "table": "region_per_observation.csv",
+        "rows": 9720,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-region",
+        "table": "region_per_seed.csv",
+        "rows": 90,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-region",
+        "table": "region_sensitivity.csv",
+        "rows": 2760,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-components",
+        "table": "branch_multiseed.csv",
+        "rows": 30,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-components",
+        "table": "branch_paired_intervals.csv",
+        "rows": 48,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-components",
+        "table": "branch_per_observation.csv",
+        "rows": 9090,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-components",
+        "table": "branch_per_seed.csv",
+        "rows": 90,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "statistics_mechanism-components",
+        "table": "branch_sensitivity.csv",
+        "rows": 456,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "evaluation_denominators.csv",
+        "rows": 8,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "qc_exclusions_with_partition.csv",
+        "rows": 2,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_component.csv",
+        "rows": 24878,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_copy.csv",
+        "rows": 1154,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_instance.csv",
+        "rows": 8199,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "target_quality_per_observation.csv",
+        "rows": 707,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "temporal_group_inventory.csv",
+        "rows": 13,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "temporal_sensitivity_all_endpoints.csv",
+        "rows": 25056,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "s11",
+        "table": "temporal_sensitivity_focus.csv",
+        "rows": 300,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "annotation_copy_per_observation.csv",
+        "rows": 40,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "annotation_copy_per_pair.csv",
+        "rows": 84,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "annotation_copy_per_reference.csv",
+        "rows": 647,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "candidate_yield_per_observation.csv",
+        "rows": 4212,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "candidate_yield_per_seed.csv",
+        "rows": 42,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "candidate_yield_three_seed_summary.csv",
+        "rows": 14,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_per_observation.csv",
+        "rows": 1328,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_per_reference.csv",
+        "rows": 2467,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_per_seed.csv",
+        "rows": 36,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "common_success_length_three_seed_summary.csv",
+        "rows": 12,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "failure_category_counts.csv",
+        "rows": 70,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "prediction_failure_per_reference.csv",
+        "rows": 12312,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "prediction_input_manifest_hashes.csv",
+        "rows": 9,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "prediction_input_mask_hashes.csv",
+        "rows": 972,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_copy.csv",
+        "rows": 170,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_observation.csv",
+        "rows": 108,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_reference.csv",
+        "rows": 1368,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_temporal_group.csv",
+        "rows": 13,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_mask_per_year.csv",
+        "rows": 10,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      },
+      {
+        "path": "full_diagnostics",
+        "table": "reference_native_mask_hashes.csv",
+        "rows": 170,
+        "maximum_absolute_difference": 0,
+        "byte_equal": true
+      }
+    ]
+  },
+  "native_mask_rescoring": {
+    "status": "PASS",
+    "run": "BCE_Dice_seed20260831",
+    "scope": "full native-mask rescoring, not inference",
+    "segmentation_observation_rows": 324,
+    "segmentation_maximum_absolute_difference": 0,
+    "axes": [
+      {
+        "table": "per_reference.csv",
+        "rows": 1368,
+        "maximum_absolute_difference": 0
+      },
+      {
+        "table": "per_copy.csv",
+        "rows": 170,
+        "maximum_absolute_difference": 0
+      },
+      {
+        "table": "per_observation.csv",
+        "rows": 108,
+        "maximum_absolute_difference": 0
+      }
+    ]
+  },
+  "figures": {
+    "status": "PASS",
+    "figures": [
+      {
+        "figure": "Figure_1.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 100.00000076293945,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 30,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_2.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 104.99999703301324,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 44,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_3.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 100.00000076293945,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 37,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S1.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 95.00000449286567,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 23,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S2.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 155.00000279744464,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 67,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S3.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 155.00000279744464,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 76,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S4.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 134.99999618530273,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 54,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_4.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 146.0000030517578,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 43,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_5.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 104.99999703301324,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 33,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S5.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 104.99999703301324,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 31,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S6.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 100.00000076293945,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 21,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S7.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 129.99999991522895,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 84,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S8.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 129.99999991522895,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 88,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_S9.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 104.99999703301324,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 48,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_7.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 173.99999508327906,
+        "height_mm": 65.99999813503689,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 7.0,
+          "text_run_count": 29,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      },
+      {
+        "figure": "Figure_6.pdf",
+        "source_bytes_match_current_manuscript": true,
+        "width_mm": 183.00000559488933,
+        "height_mm": 162.99999898274737,
+        "minimum_font_check": {
+          "auditable": true,
+          "minimum_required_pt": 5.0,
+          "minimum_found_pt": 6.5,
+          "text_run_count": 41,
+          "below_minimum_count": 0,
+          "below_minimum": [],
+          "warnings": []
+        },
+        "exports": [
+          "pdf",
+          "svg",
+          "png",
+          "tiff"
+        ]
+      }
+    ],
+    "scientific_source_files_byte_identical": 16,
+    "alignment_and_collision_checked_by_export_entry": true
+  },
+  "region_cpu_recovery": {
+    "status": "LOCAL_CPU_SMOKE_PASSED",
+    "code_sha256": "c7f81f031d64d878cffa7047327d97bd66e59f9cb5b9aec448a4e0091cc175e9",
+    "environment": {
+      "python": "3.12.9",
+      "platform": "Windows-11-10.0.22631-SP0",
+      "torch": "2.10.0+cpu",
+      "cuda": null,
+      "cudnn": null,
+      "numpy": "2.4.6",
+      "pillow": "11.1.0",
+      "scipy": "1.15.2",
+      "skimage": "0.25.0",
+      "gpu": null,
+      "gpu_bytes": null,
+      "deterministic": true,
+      "amp": false,
+      "tf32": false,
+      "optimizer": "AdamW default foreach/fused; lr=1e-4 wd=1e-5",
+      "torch_build": "PyTorch built with:\n  - C++ Version: 201703\n  - MSVC 194234444\n  - Intel(R) oneAPI Math Kernel Library Version 2025.3-Product Build 20251007 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX512\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=449b1768410104d3ed79d3bcfe4ba1d65c7f22c0, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/pytorch/.ci/pytorch/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /bigobj /FS /utf-8 -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOCUPTI -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.10.0, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n"
+    },
+    "formal_training_started": false,
+    "gpu_training_started": false,
+    "invariants": {
+      "historical_region_plus_upstream_structure_value_gradient_exact": true,
+      "actual_skeleton_iterations": 10,
+      "empty_and_full_foreground_finite_losses": [
+        0.5001664161682129,
+        4.499832630157471,
+        4.5001678466796875,
+        0.00025159670622088015,
+        0.8465735912322998,
+        0.5132402777671814
+      ],
+      "initialization": {
+        "20260831": {
+          "actual": "c61cae70e361a4f36d469a81fc5caa3d072e79b91d4fceb69ebc2b9e21d53b72",
+          "archived_expected": "6c21600b85ee88214e2d65a207fddd5a1f6793a240c2bb0af42a6e59c79e5c1b",
+          "matches": false
+        },
+        "20260901": {
+          "actual": "728f19b131e0d13834aff9667c44986dafcb374b72507387aa66a9ec23637a7b",
+          "archived_expected": "e2d0006f7d1800d9c806cd6027626430506d9b74e98749628b8867ccff257db2",
+          "matches": false
+        },
+        "20260902": {
+          "actual": "2eea185f0fada99af595346128fac10f4a9aacd2135d1fea6be85fcc84b0617f",
+          "archived_expected": "08c9c0c89d2c6cf36e0f0fd14727eae97de5503766fd2ced136f55e7d30ba9f4",
+          "matches": false
+        }
+      },
+      "unet_and_manifest_preserved": true,
+      "physical_split_counts": {
+        "train": 492,
+        "validation": 107,
+        "internal_test": 108
+      },
+      "legacy_sampling_all_seeds_epochs_1_2_150": {
+        "20260831": "44c5f4235f0392cab5655a54f5cfc7fc57f57ecaec220e93ec7209b36f86f07d",
+        "20260901": "e583265636ca21c703ba761d32fa09fead37ef8093d9e89c103087b1d8c51312",
+        "20260902": "661b81b3a4e10972bfbe579549081e8be6197dfb61d9cc69a438bf4f4a2c9a98"
+      },
+      "unexpected_cache_image_rejected": true,
+      "actual_legacy_dataloader_parity_synthetic_cache": {
+        "20260831": "302443205150d93dc44db5dd351f6ad8ee200cf2f79f26040a79eb202fa44c41",
+        "20260901": "4dad948869e2652b00c6ff8b7a440c23e8aec8bc21acd01dbf63be41c41977a5",
+        "20260902": "7e734c20aa3122cb4ead91014adf8fe33ad875eeceba697b375734ecacbda58c"
+      },
+      "formal_training_without_target_gate_rejected": true,
+      "wrong_environment_formal_training_rejected": true,
+      "transaction_fault_keeps_complete_archive": true,
+      "concurrent_same_run_rejected": true,
+      "disk_guard_rejects_over_budget": true
+    },
+    "cpu_resume": {
+      "model_optimizer_rng_loss_exact": true,
+      "shape": [
+        2,
+        1,
+        64,
+        64
+      ],
+      "epochs": 2,
+      "real_data_used": false,
+      "initial_digest": "c61cae70e361a4f36d469a81fc5caa3d072e79b91d4fceb69ebc2b9e21d53b72"
+    },
+    "code_drift_rejected": true,
+    "limits": "CPU synthetic 64x64 only; target T4 full-resolution training/resume/export resource gate still mandatory."
+  },
+  "raw_source_snapshot_and_original_bindings_preserved_outside_repository": true,
+  "original_manuscript_and_experiment_records_written": false,
+  "Git_history_rewritten": false,
+  "remote_upload_performed": false,
+  "GPU_training_performed": false,
+  "unexecuted": [
+    "full-split inference",
+    "image-based 39-threshold reconstruction",
+    "GPU component inference",
+    "Linux/T4 target preflight",
+    "formal GPU retraining",
+    "historical Flat epoch92 recovery"
+  ],
+  "two_rank_cpu_Gloo": "historical Windows runtime failure retained; no new claim of parity"
+}

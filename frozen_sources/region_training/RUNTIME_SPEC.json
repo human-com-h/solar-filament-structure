@@ -1,0 +1,33 @@
+{
+  "version": "20261003-archived-runtime-bootstrap-v1.2",
+  "expected": {
+    "python": "3.12.13",
+    "torch": "2.10.0+cu128",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "numpy": "2.0.2",
+    "pillow": "11.3.0",
+    "scipy": "1.16.3",
+    "skimage": "0.25.2"
+  },
+  "python_archive": {
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260807/cpython-3.12.13%2B20260807-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+    "sha256": "506191be3ee7bd190a8834dcdc1b3bc70aab50608deccc711935aa007239cabd",
+    "source_metadata": "https://raw.githubusercontent.com/astral-sh/uv/0.12.22/crates/uv-python/download-metadata.json"
+  },
+  "torch_index": "https://download.pytorch.org/whl/cu128",
+  "torch_requirement": "torch==2.10.0+cu128",
+  "pypi_index": "https://pypi.org/simple",
+  "other_requirements": [
+    "numpy==2.0.2",
+    "Pillow==11.3.0",
+    "scipy==1.16.3",
+    "scikit-image==0.25.2",
+    "psutil==7.0.0"
+  ],
+  "historical_source": "output/Kaggle_SABR_six_formal_ouput/seed_20260831/strong_runs/UNet_softDice_clDice_seed20260831/config.json",
+  "installation_scope": "Dedicated /tmp runtime; notebook kernel and system packages untouched",
+  "internet_required_if_stack_not_already_matching": true,
+  "scientific_configuration_changed": false,
+  "session_clock_reset": false
+}

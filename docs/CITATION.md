@@ -1,18 +1,18 @@
 # Citation
 
-For work using these implementations, cite the associated manuscript:
+For work using these implementations, cite the associated paper:
 
-> Hao, Z., and Li, Y. *Evaluating structural supervision and main-axis extraction for solar filament segmentation*. Manuscript.
+> Hao, Z., and Li, Y. *Evaluating structural supervision and main-axis extraction for solar filament segmentation*.
 
 ```bibtex
 @unpublished{hao_li_solar_filament_structure,
   author = {Hao, Zida and Li, Yubo},
   title = {Evaluating structural supervision and main-axis extraction for solar filament segmentation},
-  note = {Manuscript}
+  note = {Unpublished work}
 }
 ```
 
-`CITATION.cff` describes the software and uses `preferred-citation` for this manuscript. No publication year, journal, DOI or public release identifier has been inferred. Once a published bibliographic record is available, update the preferred citation and this entry with that record. Record the repository URL and final commit separately for an exact code version.
+`CITATION.cff` describes the software and uses `preferred-citation` for the associated paper. The CFF and BibTeX records retain its unpublished status until a published bibliographic record is available. At that point, update the preferred citation and this entry with that record. Record the repository URL and final commit separately for an exact code version.
 
 If MAGFiLO data are used, also cite the public dataset and data descriptor:
 

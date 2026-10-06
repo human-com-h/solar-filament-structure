@@ -86,8 +86,8 @@ The repository does not contain raw data or the separate 24-export weight archiv
 
 If you use this code, please cite:
 
-> Hao, Z., and Li, Y. *Evaluating structural supervision and main-axis extraction for solar filament segmentation*. Manuscript.
+> Hao, Z., and Li, Y. *Evaluating structural supervision and main-axis extraction for solar filament segmentation*.
 
-`CITATION.cff` provides the software record and preferred manuscript citation. A BibTeX entry and instructions for updating the published reference are in [citation guidance](docs/CITATION.md). When using MAGFiLO, also cite the [dataset](https://doi.org/10.7910/DVN/J6JNVK) and its [data descriptor](https://doi.org/10.1038/s41597-024-03876-y).
+`CITATION.cff` provides the software record and preferred paper citation. A BibTeX entry and instructions for updating the published reference are in [citation guidance](docs/CITATION.md). When using MAGFiLO, also cite the [dataset](https://doi.org/10.7910/DVN/J6JNVK) and its [data descriptor](https://doi.org/10.1038/s41597-024-03876-y).
 
 The authors' code, accompanying documentation and 24 model weight exports are licensed under the [MIT License](LICENSE). The separate weight archive includes its own copy of `LICENSE`. Flat U-Net and clDice retain their original MIT licenses in `frozen_sources/vendor/`. MAGFiLO v1.0 has its own [CC BY-NC 4.0 terms](https://creativecommons.org/licenses/by-nc/4.0/) in the Dataverse record; the MIT license does not cover datasets or other derived evidence. See [third-party notices](THIRD_PARTY_NOTICES.md).

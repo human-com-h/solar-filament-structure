@@ -33,7 +33,7 @@
     {
       "path": "CITATION.cff",
       "type": ".cff",
-      "bytes": 866,
+      "bytes": 848,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/CITATION.cff",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
@@ -89,7 +89,7 @@
     {
       "path": "docs/CITATION.md",
       "type": ".md",
-      "bytes": 1604,
+      "bytes": 1589,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/CITATION.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
@@ -913,7 +913,7 @@
     {
       "path": "README.md",
       "type": ".md",
-      "bytes": 10752,
+      "bytes": 10735,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/README.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"

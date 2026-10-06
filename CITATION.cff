@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the manuscript listed in preferred-citation."
+message: "If you use this code, please cite the associated paper listed in preferred-citation."
 type: software
 title: "Solar filament structure: segmentation and main-axis extraction"
 license: MIT
@@ -19,4 +19,3 @@ preferred-citation:
       given-names: Zida
     - family-names: Li
       given-names: Yubo
-  notes: "Manuscript."

@@ -56,6 +56,8 @@ The study uses MAGFiLO H-alpha images and filament annotations. The public sourc
 
 Reproducing this study requires the annotation version and 707 image files identified by the frozen manifest. The public v1.0 annotation file has a different file identity; use the recorded hashes to check the study inputs. Model weights, frozen result tables, masks and recovery state are separate from the source data. [Input identities and acquisition](docs/INPUTS.md) list the required files and explain how to arrange them.
 
+Download the [24-model weight archive](https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip) and [SHA-256 file](https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip.sha256) from [Release V1.0.0](https://github.com/human-com-h/solar-filament-structure/releases/tag/V1.0.0). The separate `solar-filament-weights.zip` contains all 24 pretrained model exports in `models/<run>.pt`, together with `MODEL_INDEX.csv`, `README.md` and the MIT `LICENSE`. The model weights are licensed under MIT. [Weight package details](weights/README.md) record the archive size, SHA-256 and extraction instructions; each model retains its original exported bytes.
+
 Four root options are available: `--data-root`, `--weights-root`, `--evidence-root`, `--output-root`. Copy `configs/paper24/paths.example.json` **outside** the repository, set absolute roots or paths relative to that configuration file, and pass `--config /path/to/paths.json`. Command-line roots take precedence. Annotation and image subpaths can be overridden with `--annotation` and `--images`; observation IDs and filenames remain bound to the frozen manifest.
 
 ```sh
@@ -78,7 +80,7 @@ No losses, labels, threshold rankings, axis matching criteria or statistical est
 
 The [local verification record](docs/VALIDATION.md) reports executed CPU paths, observed tolerances, input identity checks and unexecuted GPU paths. Synthetic tests are engineering checks and never paper evidence. Full numerical GPU training and bitwise reproduction of newly trained weights are not claimed.
 
-The repository does not contain raw data or the separate 24-export weight archive. Frozen evidence tables, mask exports, 170 original test labels, historical recovery state and external figure QA tools are also external inputs. Access and derivative-distribution permissions must be settled before distributing those inputs. The code is fully implemented; complete data-dependent reproduction still requires these inputs.
+The repository does not contain raw data or the separate 24-export weight archive. Frozen evidence tables, mask exports, 170 original test labels, historical recovery state and external figure QA tools are also external inputs. The 24 model exports have author-approved public distribution under MIT. Data and other derived evidence retain their own access and distribution terms. The code is fully implemented; complete data-dependent reproduction still requires these inputs.
 
 ## Citation and licenses
 
@@ -88,4 +90,4 @@ If you use this code, please cite:
 
 `CITATION.cff` provides the software record and preferred manuscript citation. A BibTeX entry and instructions for updating the published reference are in [citation guidance](docs/CITATION.md). When using MAGFiLO, also cite the [dataset](https://doi.org/10.7910/DVN/J6JNVK) and its [data descriptor](https://doi.org/10.1038/s41597-024-03876-y).
 
-The authors' code and accompanying documentation are licensed under the [MIT License](LICENSE). Flat U-Net and clDice retain their original MIT licenses in `frozen_sources/vendor/`. MAGFiLO v1.0 has its own [CC BY-NC 4.0 terms](https://creativecommons.org/licenses/by-nc/4.0/) in the Dataverse record; the code license does not apply to separately supplied data or artifacts. See [third-party notices](THIRD_PARTY_NOTICES.md).
+The authors' code, accompanying documentation and 24 model weight exports are licensed under the [MIT License](LICENSE). The separate weight archive includes its own copy of `LICENSE`. Flat U-Net and clDice retain their original MIT licenses in `frozen_sources/vendor/`. MAGFiLO v1.0 has its own [CC BY-NC 4.0 terms](https://creativecommons.org/licenses/by-nc/4.0/) in the Dataverse record; the MIT license does not cover datasets or other derived evidence. See [third-party notices](THIRD_PARTY_NOTICES.md).

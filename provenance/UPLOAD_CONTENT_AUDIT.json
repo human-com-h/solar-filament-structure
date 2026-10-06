@@ -10,7 +10,7 @@
   "no_unconfirmed_permission_assets_copied": true,
   "project_wide_open_license_added": true,
   "project_code_license": "MIT",
-  "license_scope": "authors code and documentation; original third-party licenses retained; external artifacts governed separately",
+  "license_scope": "authors code, documentation and separately distributed 24 model exports: MIT; original third-party licenses retained; datasets and other evidence governed separately",
   "external_inputs": "docs/INPUTS.md",
   "self_and_checksum_sizes": "Omitted here to avoid recursive metadata; final checksum manifest covers this audit, excluding its own hash.",
   "inventory": [
@@ -65,7 +65,7 @@
     {
       "path": "configs/paper24/reproduction.json",
       "type": ".json",
-      "bytes": 2721,
+      "bytes": 3197,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/configs/paper24/reproduction.json",
       "use": "release_configuration_and_provenance",
       "scope": "author_requested_local_preparation"
@@ -97,7 +97,7 @@
     {
       "path": "docs/CODE_AVAILABILITY.md",
       "type": ".md",
-      "bytes": 1583,
+      "bytes": 2078,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/CODE_AVAILABILITY.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
@@ -113,7 +113,7 @@
     {
       "path": "docs/INPUTS.md",
       "type": ".md",
-      "bytes": 8149,
+      "bytes": 8647,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/INPUTS.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
@@ -169,7 +169,7 @@
     {
       "path": "docs/VALIDATION.md",
       "type": ".md",
-      "bytes": 8918,
+      "bytes": 9318,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/docs/VALIDATION.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
@@ -817,7 +817,7 @@
     {
       "path": "provenance/LOCAL_VALIDATION.json",
       "type": ".json",
-      "bytes": 37517,
+      "bytes": 37627,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/LOCAL_VALIDATION.json",
       "use": "release_configuration_and_provenance",
       "scope": "author_requested_local_preparation"
@@ -841,7 +841,7 @@
     {
       "path": "provenance/NORMALIZATION_VALIDATION.json",
       "type": ".json",
-      "bytes": 65314,
+      "bytes": 65842,
       "source": "LOCAL_IMPLEMENTATION/provenance/NORMALIZATION_VALIDATION.json",
       "use": "release_configuration_and_provenance",
       "scope": "author_requested_local_preparation"
@@ -849,7 +849,7 @@
     {
       "path": "provenance/PUBLIC_DOWNLOAD_LINKS.json",
       "type": ".json",
-      "bytes": 2138,
+      "bytes": 3761,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/provenance/PUBLIC_DOWNLOAD_LINKS.json",
       "use": "release_configuration_and_provenance",
       "scope": "author_requested_local_preparation"
@@ -897,7 +897,7 @@
     {
       "path": "provenance/WEIGHT_PACKAGE_VALIDATION.json",
       "type": ".json",
-      "bytes": 9164,
+      "bytes": 10195,
       "source": "LOCAL_IMPLEMENTATION/provenance/WEIGHT_PACKAGE_VALIDATION.json",
       "use": "release_configuration_and_provenance",
       "scope": "author_requested_local_preparation"
@@ -913,7 +913,7 @@
     {
       "path": "README.md",
       "type": ".md",
-      "bytes": 9859,
+      "bytes": 10752,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/README.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
@@ -1049,7 +1049,7 @@
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "type": ".md",
-      "bytes": 2957,
+      "bytes": 3156,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/THIRD_PARTY_NOTICES.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
@@ -1065,10 +1065,19 @@
     {
       "path": "weights/README.md",
       "type": ".md",
-      "bytes": 861,
+      "bytes": 1639,
       "source": "canonical_source/LOCAL_IMPLEMENTATION/weights/README.md",
       "use": "reproduction_documentation",
       "scope": "author_requested_local_preparation"
     }
-  ]
+  ],
+  "project_weight_license": "MIT",
+  "external_weight_package": {
+    "file": "solar-filament-weights.zip",
+    "bytes": 606443387,
+    "sha256": "ce70dd1d3743b05d9db03b92742b22ff461a831f3d2e57931d8a7e8d7a50407c",
+    "license": "MIT",
+    "public_distribution_authorized": true,
+    "stored_in_source_tree": false
+  }
 }

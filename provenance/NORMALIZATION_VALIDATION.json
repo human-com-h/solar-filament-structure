@@ -712,7 +712,8 @@
       }
     ],
     "model_export_bytes_unchanged": true,
-    "full_dataset_inference_run": false
+    "full_dataset_inference_run": false,
+    "archive_identity_scope": "container used for the earlier strict-loading check; model export bytes are unchanged in the current MIT archive"
   },
   "interfaces": {
     "status": "PASS",
@@ -2173,5 +2174,14 @@
     "formal GPU retraining",
     "historical Flat epoch92 recovery"
   ],
-  "two_rank_cpu_Gloo": "historical Windows runtime failure retained; no new claim of parity"
+  "two_rank_cpu_Gloo": "historical Windows runtime failure retained; no new claim of parity",
+  "current_weight_package": {
+    "validation": "WEIGHT_PACKAGE_VALIDATION.json",
+    "archive": "solar-filament-weights.zip",
+    "sha256": "ce70dd1d3743b05d9db03b92742b22ff461a831f3d2e57931d8a7e8d7a50407c",
+    "bytes": 606443387,
+    "license": "MIT",
+    "all24_export_bytes_unchanged": true,
+    "earlier_strict_loading_still_applies_to_identical_exports": true
+  }
 }

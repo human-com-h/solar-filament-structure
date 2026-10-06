@@ -1,8 +1,8 @@
 {
-  "status": "PASS_NEUTRAL_WEIGHT_PACKAGE",
+  "status": "PASS_MIT_LICENSED_WEIGHT_PACKAGE",
   "archive": "solar-filament-weights.zip",
-  "bytes": 606442575,
-  "sha256": "77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86",
+  "bytes": 606443387,
+  "sha256": "ce70dd1d3743b05d9db03b92742b22ff461a831f3d2e57931d8a7e8d7a50407c",
   "models": 24,
   "single_level": true,
   "member_export_bytes_unchanged": true,
@@ -224,5 +224,20 @@
       "sha256": "fc2fc25f9c0c23363e5a1fef8dbaa5dbfdc6c12109dc19fca04e116208fd9602",
       "tensor_sha256": "ad0b24e47db6073edb4ef6a67931c18bcb85de90298929aaa591a4c04c9d656f"
     }
-  ]
+  ],
+  "license": "MIT",
+  "license_file": "LICENSE",
+  "license_file_sha256": "b9477a151d4c6fb41d8f0c17379f9545e2a09d31b962d2b502ef650a07f5a4f4",
+  "author_public_distribution_confirmed": true,
+  "member_count": 27,
+  "previous_container_sha256": "77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86",
+  "previous_container_preserved_outside_repository": true,
+  "update_scope": "MIT license and archive documentation; all 24 model export bytes unchanged",
+  "model_index_bytes_unchanged": true,
+  "remote_upload_performed": false,
+  "GPU_training_performed": false,
+  "release_url": "https://github.com/human-com-h/solar-filament-structure/releases/tag/V1.0.0",
+  "download_url": "https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip",
+  "checksum_url": "https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip.sha256",
+  "release_link_validation": "PUBLIC_DOWNLOAD_LINKS.json#weight_release"
 }

@@ -50,5 +50,38 @@
   ],
   "validation": "API metadata and HTTP HEAD only; file bodies were not downloaded",
   "scope": "Public source release; exact study annotation and image identities remain separately checked",
-  "paper": "https://doi.org/10.1038/s41597-024-03876-y"
+  "paper": "https://doi.org/10.1038/s41597-024-03876-y",
+  "weight_release": {
+    "checked_at": "2026-10-06T10:33:50.939217+00:00",
+    "url": "https://github.com/human-com-h/solar-filament-structure/releases/tag/V1.0.0",
+    "metadata_endpoint": "https://api.github.com/repos/human-com-h/solar-filament-structure/releases/tags/V1.0.0",
+    "tag": "V1.0.0",
+    "draft": false,
+    "published_at": "2026-10-06T10:25:50Z",
+    "assets": [
+      {
+        "name": "solar-filament-weights.zip",
+        "size": 606442575,
+        "digest": "sha256:77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86",
+        "browser_download_url": "https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip",
+        "updated_at": "2026-10-06T10:25:45Z"
+      },
+      {
+        "name": "solar-filament-weights.zip.sha256",
+        "size": 94,
+        "digest": "sha256:a59aa850f6891a47093cab8a6fd0737948e9ee7f7249d827290aa9ef91059665",
+        "browser_download_url": "https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip.sha256",
+        "updated_at": "2026-10-06T10:25:48Z"
+      }
+    ],
+    "current_mit_archive": {
+      "file": "solar-filament-weights.zip",
+      "bytes": 606443387,
+      "sha256": "ce70dd1d3743b05d9db03b92742b22ff461a831f3d2e57931d8a7e8d7a50407c",
+      "license": "MIT"
+    },
+    "published_archive_matches_current_mit_archive": false,
+    "status": "EXISTING_ASSETS_USE_PREVIOUS_CONTAINER",
+    "validation": "Public GitHub release API asset metadata; archive body was not downloaded; no remote files changed"
+  }
 }

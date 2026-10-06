@@ -1216,5 +1216,7 @@
   "remote_upload_executed": false,
   "original_paper_files_written": false,
   "source_copy_scope": "Historical checks were performed before canonical naming; the independently repeated current-copy checks are in NORMALIZATION_VALIDATION.json.",
-  "current_copy_revalidation": "NORMALIZATION_VALIDATION.json"
+  "current_copy_revalidation": "NORMALIZATION_VALIDATION.json",
+  "current_weight_package_validation": "WEIGHT_PACKAGE_VALIDATION.json",
+  "current_weight_license": "MIT"
 }

@@ -54,13 +54,19 @@
   },
   "weights_companion": {
     "file": "solar-filament-weights.zip",
-    "sha256": "77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86",
+    "sha256": "ce70dd1d3743b05d9db03b92742b22ff461a831f3d2e57931d8a7e8d7a50407c",
     "state_dicts": 24,
     "optimizer_checkpoints_promised": false,
-    "bytes": 606442575,
+    "bytes": 606443387,
     "layout": "models/<run>.pt; single archive level",
     "original_container_sha256": "6b3e995b885b082ab97a682f7d24d755d13f9fd7d4ad2d4eaf7afbc36a71c40f",
-    "model_export_bytes_unchanged": true
+    "model_export_bytes_unchanged": true,
+    "license": "MIT",
+    "license_file": "LICENSE",
+    "author_public_distribution_confirmed": true,
+    "release_url": "https://github.com/human-com-h/solar-filament-structure/releases/tag/V1.0.0",
+    "download_url": "https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip",
+    "checksum_url": "https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip.sha256"
   },
   "raw_annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
   "split_manifest_sha256": "eb7603b38ef22ffc87b81dfb88afba3833dfb0930290f9d600d70c5be8439129",

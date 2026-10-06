@@ -26,7 +26,7 @@ The two direct download endpoints returned HTTP 200 with the expected filename a
 
 The default annotation path is `train/MAGFiLO_1.0_Annotations_kaggle2026_train.json`, SHA-256 `5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1`. Images are under `train/train_images/`, named exactly as the frozen manifest. There are 707 observations and 1,154 annotation copies. `04_access/DATA_INPUT_INDEX.csv` in the external review package contains all 707 image identities. `check-data` checks every hash and byte size; `--annotation-only` explicitly omits the image check.
 
-The study annotation file has a different identity from the public v1.0 JSON. The public download links identify the source release; paper reproduction still requires the exact annotation version and image files listed above. Keep the recorded filenames and observation IDs and run `check-data` to verify them. The provider metadata in `provenance/SOURCE_LICENSE_METADATA.json` is retained unchanged from the study annotation file. The authors' MIT code license does not assign terms to separate datasets, weights or derived evidence.
+The study annotation file has a different identity from the public v1.0 JSON. The public download links identify the source release; paper reproduction still requires the exact annotation version and image files listed above. Keep the recorded filenames and observation IDs and run `check-data` to verify them. The provider metadata in `provenance/SOURCE_LICENSE_METADATA.json` is retained unchanged from the study annotation file. The authors license their code and 24 model weight exports under MIT. Separate datasets and derived evidence retain their own terms.
 
 ## Separate artifacts
 
@@ -52,9 +52,9 @@ The original21 replay verifies all 15,163 retained scientific members and 4,212 
 
 ## Weights
 
-The companion `solar-filament-weights.zip` is 606,442,575 bytes, SHA-256 `77cb57076377cbdd14c85e67eb0112e158a0f85f7bedfd2bf44a2af0bb4b5d86`. It contains all 24 exports directly in `models/`, plus a model index and an English README. Extract it once to `weights-root`, yielding `weights-root/models/<run>.pt`. Every model retains its original exported bytes. The CLI checks both file SHA-256 and sorted state-tensor identity and requires a strict model load. The MIT code license does not grant a license for these separate weights.
+The companion `solar-filament-weights.zip` is 606,443,387 bytes, SHA-256 `ce70dd1d3743b05d9db03b92742b22ff461a831f3d2e57931d8a7e8d7a50407c`. It contains all 24 exports directly in `models/`, plus `MODEL_INDEX.csv`, an English `README.md` and the MIT `LICENSE`. Extract it once to `weights-root`, yielding `weights-root/models/<run>.pt`. Every model retains its original exported bytes. The CLI checks both file SHA-256 and sorted state-tensor identity and requires a strict model load. The 24 model weight exports and accompanying documentation are licensed under MIT; the archive includes the full license text.
 
-`configs/paper24/models.json` and `provenance/MODEL_EVIDENCE_INDEX_24.csv` distinguish source training-checkpoint, inference-export and tensor hashes. These 24 exports are inference state-dicts. They do not promise optimizer state, historical RNG state or a complete recovery archive. This repository currently supplies no weight download URL.
+`configs/paper24/models.json` and `provenance/MODEL_EVIDENCE_INDEX_24.csv` distinguish source training-checkpoint, inference-export and tensor hashes. These 24 exports are inference state-dicts. They do not promise optimizer state, historical RNG state or a complete recovery archive. The [weight archive](https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip) and [SHA-256 file](https://github.com/human-com-h/solar-filament-structure/releases/download/V1.0.0/solar-filament-weights.zip.sha256) are available through [Release V1.0.0](https://github.com/human-com-h/solar-filament-structure/releases/tag/V1.0.0). Check the archive against the identity above before extraction.
 
 ## Inputs omitted from the review subset
 
